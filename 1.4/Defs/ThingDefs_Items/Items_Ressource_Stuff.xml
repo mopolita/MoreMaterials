@@ -196,7 +196,37 @@
     <deepLumpSizeRange>5~15</deepLumpSizeRange>
     <burnableByRecipe>true</burnableByRecipe>
     <smeltable>false</smeltable>
-    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+  </ThingDef>
+
+<!-- Coal -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>BaME_Coal</defName>
+    <label>coal</label>
+    <description>a black, burnable material having a variety of uses.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/BaME_Coal</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Wood_Drop</soundInteract>
+    <soundDrop>Wood_Drop</soundDrop>
+    <useHitPoints>true</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MarketValue>0.5</MarketValue>
+      <MaxHitPoints>55</MaxHitPoints>
+      <Mass>0.4</Mass>
+      <Flammability>2</Flammability>
+      <DeteriorationRate>0.8</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    <deepCommonality>0.65</deepCommonality>
+    <deepCountPerPortion>15</deepCountPerPortion>
+    <deepLumpSizeRange>10~20</deepLumpSizeRange>
+    <burnableByRecipe>true</burnableByRecipe>
+    <smeltable>false</smeltable>
   </ThingDef>
 
 </Defs>

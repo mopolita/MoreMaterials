@@ -67,7 +67,7 @@
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>BaME_Nickel</mineableThing>
-      <mineableYield>30</mineableYield>
+      <mineableYield>25</mineableYield>
       <mineableScatterCommonality>0.5</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>15~25</mineableScatterLumpSizeRange>
     </building>
@@ -94,6 +94,30 @@
       <mineableYield>25</mineableYield>
       <mineableScatterCommonality>0.4</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>15~20</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+  <!-- Coal -->
+  <ThingDef ParentName="RockBase">
+    <defName>BaME_MineableCoal</defName>
+    <label>coal ore</label>
+    <description>Rock containing bits of coal.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(22, 22, 22)</color>
+      <colorTwo>(48, 48, 48)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1400</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>BaME_Coal</mineableThing>
+      <mineableYield>30</mineableYield>
+      <mineableScatterCommonality>0.5</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>20~30</mineableScatterLumpSizeRange>
     </building>
   </ThingDef>
 
