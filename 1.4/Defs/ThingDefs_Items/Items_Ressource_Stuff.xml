@@ -3,11 +3,11 @@
 
 <!-- Lead -->
   <ThingDef ParentName="ResourceBase">
-    <defName>BaME_Lead</defName>
+    <defName>ME_Lead</defName>
     <label>lead</label>
     <description>A soft, heavy metal which isn't very useful for making weapons or structures due to its low strength and heaviness. However, it is sometimes used in the production of batteries.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/BaME_Lead</texPath>
+      <texPath>Things/Item/Resource/ME_Lead</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
@@ -59,11 +59,11 @@
 
 <!-- Copper -->
   <ThingDef ParentName="ResourceBase">
-    <defName>BaME_Copper</defName>
+    <defName>ME_Copper</defName>
     <label>copper</label>
     <description>A light metal which is almost useful for making weapons or structures due to its medium strength. However, it can be used in the production of batteries.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/BaME_Copper</texPath>
+      <texPath>Things/Item/Resource/ME_Copper</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
@@ -114,11 +114,11 @@
 
 <!-- Nickel -->
   <ThingDef ParentName="ResourceBase">
-    <defName>BaME_Nickel</defName>
+    <defName>ME_Nickel</defName>
     <label>nickel</label>
     <description>A shiny metal, not too heavy, often used in the production various equipments and batteries.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/BaME_Nickel</texPath>
+      <texPath>Things/Item/Resource/ME_Nickel</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
@@ -169,11 +169,11 @@
 
 <!-- Lithium -->
   <ThingDef ParentName="ResourceBase">
-    <defName>BaME_Lithium</defName>
+    <defName>ME_Lithium</defName>
     <label>lithium</label>
     <description>An unstable metal used in production of batteries.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/BaME_Lithium</texPath>
+      <texPath>Things/Item/Resource/ME_Lithium</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Silver_Drop</soundInteract>
@@ -200,11 +200,11 @@
 
 <!-- Coal -->
   <ThingDef ParentName="ResourceBase">
-    <defName>BaME_Coal</defName>
+    <defName>ME_Coal</defName>
     <label>coal</label>
     <description>a black, burnable material having a variety of uses.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/BaME_Coal</texPath>
+      <texPath>Things/Item/Resource/ME_Coal</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Wood_Drop</soundInteract>

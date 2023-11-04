@@ -14,7 +14,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>BaME_Coal</li>
+            <li>ME_Coal</li>
           </thingDefs>
         </filter>
         <count>60</count>
@@ -22,7 +22,7 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>BaME_Coal</li>
+        <li>ME_Coal</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>

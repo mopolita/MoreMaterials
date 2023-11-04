@@ -4,21 +4,21 @@
   <Operation Class="PatchOperationAdd">
     <xpath>*/ThingDef[defName = "WoodFiredGenerator"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
     <value>
-      <li>BaME_Coal</li>
+      <li>ME_Coal</li>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationAdd">
     <xpath>*/ThingDef[defName = "FueledSmithy"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
     <value>
-      <li>BaME_Coal</li>
+      <li>ME_Coal</li>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationAdd">
     <xpath>*/ThingDef[defName = "FueledStove"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
     <value>
-      <li>BaME_Coal</li>
+      <li>ME_Coal</li>
     </value>
   </Operation>
 

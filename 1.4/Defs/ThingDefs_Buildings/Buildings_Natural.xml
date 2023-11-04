@@ -3,7 +3,7 @@
 
   <!-- Lead -->
   <ThingDef ParentName="RockBase">
-    <defName>BaME_MineableLead</defName>
+    <defName>ME_MineableLead</defName>
     <label>lead ore</label>
     <description>Rock containing bits of lead.</description>
     <graphicData>
@@ -18,7 +18,7 @@
     </statBases>
     <building>
       <isResourceRock>true</isResourceRock>
-      <mineableThing>BaME_Lead</mineableThing>
+      <mineableThing>ME_Lead</mineableThing>
       <mineableYield>45</mineableYield>
       <mineableScatterCommonality>1</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>30~40</mineableScatterLumpSizeRange>
@@ -27,7 +27,7 @@
 
   <!-- Copper -->
   <ThingDef ParentName="RockBase">
-    <defName>BaME_MineableCopper</defName>
+    <defName>ME_MineableCopper</defName>
     <label>copper ore</label>
     <description>Rock containing bits of copper.</description>
     <graphicData>
@@ -42,7 +42,7 @@
     </statBases>
     <building>
       <isResourceRock>true</isResourceRock>
-      <mineableThing>BaME_Copper</mineableThing>
+      <mineableThing>ME_Copper</mineableThing>
       <mineableYield>40</mineableYield>
       <mineableScatterCommonality>0.7</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>25~35</mineableScatterLumpSizeRange>
@@ -51,7 +51,7 @@
 
   <!-- Nickel -->
   <ThingDef ParentName="RockBase">
-    <defName>BaME_MineableNickel</defName>
+    <defName>ME_MineableNickel</defName>
     <label>nickel ore</label>
     <description>Rock containing bits of nickel.</description>
     <graphicData>
@@ -66,7 +66,7 @@
     </statBases>
     <building>
       <isResourceRock>true</isResourceRock>
-      <mineableThing>BaME_Nickel</mineableThing>
+      <mineableThing>ME_Nickel</mineableThing>
       <mineableYield>25</mineableYield>
       <mineableScatterCommonality>0.5</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>15~25</mineableScatterLumpSizeRange>
@@ -75,7 +75,7 @@
 
   <!-- Lithium -->
   <ThingDef ParentName="RockBase">
-    <defName>BaME_MineableLithium</defName>
+    <defName>ME_MineableLithium</defName>
     <label>lithium ore</label>
     <description>Rock containing bits of lithium.</description>
     <graphicData>
@@ -90,7 +90,7 @@
     </statBases>
     <building>
       <isResourceRock>true</isResourceRock>
-      <mineableThing>BaME_Lithium</mineableThing>
+      <mineableThing>ME_Lithium</mineableThing>
       <mineableYield>25</mineableYield>
       <mineableScatterCommonality>0.4</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>15~20</mineableScatterLumpSizeRange>
@@ -99,7 +99,7 @@
 
   <!-- Coal -->
   <ThingDef ParentName="RockBase">
-    <defName>BaME_MineableCoal</defName>
+    <defName>ME_MineableCoal</defName>
     <label>coal ore</label>
     <description>Rock containing bits of coal.</description>
     <graphicData>
@@ -114,7 +114,7 @@
     </statBases>
     <building>
       <isResourceRock>true</isResourceRock>
-      <mineableThing>BaME_Coal</mineableThing>
+      <mineableThing>ME_Coal</mineableThing>
       <mineableYield>30</mineableYield>
       <mineableScatterCommonality>0.5</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>20~30</mineableScatterLumpSizeRange>
