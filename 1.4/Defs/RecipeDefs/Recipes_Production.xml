@@ -30,4 +30,47 @@
     </products>
   </RecipeDef>
 
+  <RecipeDef>
+    <defName>Make_BronzeAlloy</defName>
+    <label>make bronze alloy</label>
+    <description>Make a batch of bronze by smelting and mixing copper and tin.</description>
+    <jobString>Smelting alloy from metals.</jobString>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ME_Copper</li>
+          </thingDefs>
+        </filter>
+        <count>9</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ME_Tin</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ME_Copper</li>
+        <li>ME_Tin</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <ME_BronzeAlloy>10</ME_BronzeAlloy>
+    </products>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>0</displayPriority>
+  </RecipeDef>
+
 </Defs>

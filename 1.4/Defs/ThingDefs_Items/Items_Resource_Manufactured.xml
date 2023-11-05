@@ -36,26 +36,26 @@
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
-      <MarketValue></MarketValue>
-      <Mass></Mass>
-      <StuffPower_Armor_Sharp></StuffPower_Armor_Sharp>
-      <StuffPower_Armor_Blunt></StuffPower_Armor_Blunt>
-      <StuffPower_Armor_Heat></StuffPower_Armor_Heat>
-      <StuffPower_Insulation_Cold></StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat></StuffPower_Insulation_Heat>
-      <SharpDamageMultiplier></SharpDamageMultiplier>
-      <BluntDamageMultiplier></BluntDamageMultiplier>
+      <MarketValue>1.6</MarketValue>
+      <Mass>0.4</Mass>
+      <StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.5</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.4</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>1.4</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.1</BluntDamageMultiplier>
     </statBases>
     <stuffProps>
-      <commonality></commonality>
-      <color>(, , )</color>
+      <commonality>0.15</commonality>
+      <color>(176, 99, 4)</color>
       <statFactors>
-        <MaxHitPoints></MaxHitPoints>
+        <MaxHitPoints>0.8</MaxHitPoints>
         <Flammability>0</Flammability>
-        <Beauty></Beauty>
-        <WorkToMake></WorkToMake>
-        <WorkToBuild></WorkToBuild>
-        <MeleeWeapon_CooldownMultiplier></MeleeWeapon_CooldownMultiplier>
+        <Beauty>1.7</Beauty>
+        <WorkToMake>1.15</WorkToMake>
+        <WorkToBuild>1.15</WorkToBuild>
+        <MeleeWeapon_CooldownMultiplier>0.9</MeleeWeapon_CooldownMultiplier>
       </statFactors>
     </stuffProps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
