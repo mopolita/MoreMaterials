@@ -97,6 +97,30 @@
     </building>
   </ThingDef>
 
+  <!-- Zinc -->
+  <ThingDef ParentName="RockBase">
+    <defName>ME_MineableZinc</defName>
+    <label>zinc ore</label>
+    <description>Rock containing bits of zinc.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(79, 125, 106)</color>
+      <colorTwo>(80, 143, 115)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>2400</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>ME_Zinc</mineableThing>
+      <mineableYield>20</mineableYield>
+      <mineableScatterCommonality>0.4</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>15~25</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
   <!-- Lithium -->
   <ThingDef ParentName="RockBase">
     <defName>ME_MineableLithium</defName>

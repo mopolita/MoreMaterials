@@ -222,6 +222,61 @@
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
   </ThingDef>
 
+<!-- Zinc -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>ME_Zinc</defName>
+    <label>zinc</label>
+    <description>Something Something, not finished either.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Raw/ME_Zinc</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MarketValue>2</MarketValue>
+      <Mass>0.55</Mass>
+      <StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.5</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>4</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0.2</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>1.2</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.2</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    <deepCommonality>1.85</deepCommonality>
+    <deepCountPerPortion>17</deepCountPerPortion>
+    <deepLumpSizeRange>10~17</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>0.15</commonality>
+      <color>(79, 125, 106)</color>
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statFactors>
+        <MaxHitPoints>0.95</MaxHitPoints>
+        <Flammability>0</Flammability>
+        <Beauty>1</Beauty>
+        <WorkToMake>1</WorkToMake>
+        <WorkToBuild>1</WorkToBuild>
+      </statFactors>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+  </ThingDef>
+
 <!-- Lithium -->
   <ThingDef ParentName="ResourceBase">
     <defName>ME_Lithium</defName>
