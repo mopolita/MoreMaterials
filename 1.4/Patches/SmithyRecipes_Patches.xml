@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>*/ThingDef[defName = "FueledSmithy"]/recipes</xpath>
+    <nomatch Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>*/ThingDef[defName = "FueledSmithy"]</xpath>
+          <value>
+            <recipes />
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>*/ThingDef[defName = "ElectricSmithy"]</xpath>
+          <value>
+            <recipes />
+          </value>
+        </li>
+      </operations>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "FueledSmithy"]/recipes</xpath>
+    <value>
+      <li>Make_BronzeIngots</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "FueledSmithy"]/recipes</xpath>
+    <value>
+      <li>Make_BronzeIngotsBulk</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "ElectricSmithy"]/recipes</xpath>
+    <value>
+      <li>Make_BronzeIngots</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "ElectricSmithy"]/recipes</xpath>
+    <value>
+      <li>Make_BronzeIngotsBulk</li>
+    </value>
+  </Operation>
+
+</Patch>
