@@ -31,10 +31,10 @@
   </RecipeDef>
 
   <RecipeDef>
-    <defName>Make_BronzeAlloy</defName>
+    <defName>Make_BronzeIngots</defName>
     <label>make bronze alloy</label>
     <description>Make a batch of bronze by smelting and mixing copper and tin.</description>
-    <jobString>Smelting alloy from metals.</jobString>
+    <jobString>Smelting alloy ingots.</jobString>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
     <workAmount>1000</workAmount>
@@ -64,7 +64,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <ME_BronzeAlloy>10</ME_BronzeAlloy>
+      <ME_BronzeIngot>10</ME_BronzeIngot>
     </products>
     <skillRequirements>
       <Crafting>4</Crafting>

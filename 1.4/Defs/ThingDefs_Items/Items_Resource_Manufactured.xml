@@ -1,14 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="ResourceBase" Name="ME_AlloyBase" Abstract="True">
+  <ThingDef ParentName="ResourceBase" Name="ME_IngotBase" Abstract="True">
     <stackLimit>75</stackLimit>
     <healthAffectsPrice>false</healthAffectsPrice>
     <uiIconForStackCount>1</uiIconForStackCount>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
     <useHitPoints>false</useHitPoints>
-    <healthAffectsPrice>false</healthAffectsPrice>
     <thingCategories>
       <li>Manufactured</li>
     </thingCategories>
@@ -27,12 +26,12 @@
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
   </ThingDef>
 
-  <ThingDef ParentName="ME_AlloyBase">
-    <defName>ME_BronzeAlloy</defName>
+  <ThingDef ParentName="ME_IngotBase">
+    <defName>ME_BronzeIngot</defName>
     <label>bronze alloy</label>
     <description>An alloy made from copper and tin and discovered in the ancient times, way before any form of space travel.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/Manufactured/ME_BronzeAlloy</texPath>
+      <texPath>Things/Item/Resource/Manufactured/ME_BronzeIngot</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>

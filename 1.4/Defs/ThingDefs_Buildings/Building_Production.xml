@@ -9,7 +9,7 @@
     <thingClass>Building_WorkTable</thingClass>
     <drawerType>MapMeshAndRealTime</drawerType>
     <graphicData>
-      <texPath></texPath>
+      <texPath>Things/Building/Production/TableSmithingFueled</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(3.5,1.5)</drawSize>
       <shadowData>
@@ -45,6 +45,9 @@
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <recipes>
+      <li>Make_BronzeIngots</li>
+    </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>
     </inspectorTabs>
@@ -86,7 +89,7 @@
     <description>An electric-powered station for smelting metals into stronger ones.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
-      <texPath></texPath>
+      <texPath>Things/Building/Production/TableSmithingElectric</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(3.5,1.5)</drawSize>
       <shadowData>
@@ -123,6 +126,9 @@
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
     <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <recipes>
+      <li>Make_BronzeIngots</li>
+    </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>
     </inspectorTabs>
