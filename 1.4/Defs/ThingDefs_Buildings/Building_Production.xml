@@ -47,6 +47,7 @@
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
     <recipes>
       <li>Make_BronzeIngots</li>
+      <li>Make_BronzeIngotsBulk</li>
     </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>

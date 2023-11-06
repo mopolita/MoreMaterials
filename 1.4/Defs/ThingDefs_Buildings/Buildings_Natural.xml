@@ -59,7 +59,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <color>(105, 105, 105)</color>
-      <colorTwo>(64, 64, 64)</colorTwo>
+      <colorTwo>(125, 125, 125)</colorTwo>
     </graphicData>
     <statBases>
       <MaxHitPoints>1400</MaxHitPoints>
