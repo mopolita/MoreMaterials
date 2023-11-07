@@ -243,10 +243,13 @@
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <displayPriority>2</displayPriority>
+    <researchPrerequisites>
+      <li>Advanced_Alloys</li>
+    </researchPrerequisites>
   </RecipeDef>
 
   <RecipeDef>
-    <defName>Make_BrassIngotsBulk</defName>
+    <defName>Make_ElectrumIngotsBulk</defName>
     <label>make electrum ingots x100</label>
     <description>Make a batch of electrum by smelting and mixing gold and silver.</description>
     <jobString>Smelting alloy ingots.</jobString>
@@ -261,7 +264,7 @@
             <li>Gold</li>
           </thingDefs>
         </filter>
-        <count>400</count>
+        <count>350</count>
       </li>
       <li>
         <filter>
@@ -269,7 +272,7 @@
             <li>Silver</li>
           </thingDefs>
         </filter>
-        <count>40</count>
+        <count>300</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -286,6 +289,229 @@
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <displayPriority>2</displayPriority>
+    <researchPrerequisites>
+      <li>Advanced_Alloys</li>
+    </researchPrerequisites>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Make_WhiteGoldIngots</defName>
+    <label>make white gold ingots x10</label>
+    <description>Make a batch of white gold by smelting and mixing gold, silver and nickel.</description>
+    <jobString>Smelting alloy ingots.</jobString>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1750</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>33</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>33</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ME_Nickel</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Gold</li>
+        <li>Silver</li>
+        <li>ME_Nickel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <ME_WhiteGoldIngot>10</ME_WhiteGoldIngot>
+    </products>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>3</displayPriority>
+    <researchPrerequisites>
+      <li>Advanced_Alloys</li>
+    </researchPrerequisites>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Make_WhiteGoldIngotsBulk</defName>
+    <label>make white gold ingots x100</label>
+    <description>Make a batch of white gold by smelting and mixing gold, silver and nickel.</description>
+    <jobString>Smelting alloy ingots.</jobString>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>17500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>330</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>330</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ME_Nickel</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Gold</li>
+        <li>Silver</li>
+        <li>ME_Nickel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <ME_WhiteGoldIngot>100</ME_WhiteGoldIngot>
+    </products>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>3</displayPriority>
+    <researchPrerequisites>
+      <li>Advanced_Alloys</li>
+    </researchPrerequisites>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Make_PinkGoldIngots</defName>
+    <label>make pink gold ingots x10</label>
+    <description>Make a batch of pink gold by smelting and mixing gold, silver and copper.</description>
+    <jobString>Smelting alloy ingots.</jobString>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>2000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>55</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ME_Copper</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Gold</li>
+        <li>Silver</li>
+        <li>ME_Copper</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <ME_PinkGoldIngot>10</ME_PinkGoldIngot>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>4</displayPriority>
+    <researchPrerequisites>
+      <li>Advanced_Alloys</li>
+    </researchPrerequisites>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Make_PinkGoldIngotsBulk</defName>
+    <label>make pink gold ingots x100</label>
+    <description>Make a batch of pink gold by smelting and mixing gold, silver and nickel.</description>
+    <jobString>Smelting alloy ingots.</jobString>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>20000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>500</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ME_Copper</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Gold</li>
+        <li>Silver</li>
+        <li>ME_Copper</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <ME_PinkGoldIngot>100</ME_PinkGoldIngot>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>4</displayPriority>
+    <researchPrerequisites>
+      <li>Advanced_Alloys</li>
+    </researchPrerequisites>
   </RecipeDef>
 
 </Defs>
