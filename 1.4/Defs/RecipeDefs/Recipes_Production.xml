@@ -116,4 +116,90 @@
     <displayPriority>0</displayPriority>
   </RecipeDef>
 
+  <RecipeDef>
+    <defName>Make_BrassIngots</defName>
+    <label>make brass ingots x10</label>
+    <description>Make a batch of brass by smelting and mixing copper and zinc.</description>
+    <jobString>Smelting alloy ingots.</jobString>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1400</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ME_Copper</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ME_Zinc</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ME_Copper</li>
+        <li>ME_Zinc</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <ME_BrassIngot>10</ME_BrassIngot>
+    </products>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>1</displayPriority>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Make_BrassIngotsBulk</defName>
+    <label>make brass ingots x100</label>
+    <description>Make a batch of brass by smelting and mixing copper and tin.</description>
+    <jobString>Smelting alloy ingots.</jobString>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>14000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ME_Copper</li>
+          </thingDefs>
+        </filter>
+        <count>80</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ME_Zinc</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ME_Copper</li>
+        <li>ME_Zinc</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <ME_BrassIngot>100</ME_BrassIngot>
+    </products>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>1</displayPriority>
+  </RecipeDef>
+
 </Defs>
