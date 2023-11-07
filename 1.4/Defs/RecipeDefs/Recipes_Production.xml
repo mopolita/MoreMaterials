@@ -202,4 +202,90 @@
     <displayPriority>1</displayPriority>
   </RecipeDef>
 
+  <RecipeDef>
+    <defName>Make_ElectrumIngots</defName>
+    <label>make electrum ingots x10</label>
+    <description>Make a batch of electrum by smelting and mixing gold and silver.</description>
+    <jobString>Smelting alloy ingots.</jobString>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>35</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Gold</li>
+        <li>Silver</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <ME_ElectrumIngot>10</ME_ElectrumIngot>
+    </products>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>2</displayPriority>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Make_BrassIngotsBulk</defName>
+    <label>make electrum ingots x100</label>
+    <description>Make a batch of electrum by smelting and mixing gold and silver.</description>
+    <jobString>Smelting alloy ingots.</jobString>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>15000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>400</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Gold</li>
+        <li>Silver</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <ME_ElectrumIngot>100</ME_ElectrumIngot>
+    </products>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>2</displayPriority>
+  </RecipeDef>
+
 </Defs>
