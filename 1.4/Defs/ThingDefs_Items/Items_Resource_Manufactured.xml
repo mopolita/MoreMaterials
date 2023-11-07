@@ -81,7 +81,7 @@
     </statBases>
     <stuffProps>
       <commonality>0.1</commonality>
-      <color>(176, 99, 4)</color>
+      <color>(156, 146, 12)</color>
       <statFactors>
         <MaxHitPoints>1</MaxHitPoints>
         <Flammability>0</Flammability>
