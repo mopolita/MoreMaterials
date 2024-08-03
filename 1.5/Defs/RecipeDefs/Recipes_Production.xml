@@ -71,6 +71,9 @@
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <displayPriority>0</displayPriority>
+    <researchPrerequisites>
+      <li>Basic_Alloys</li>
+    </researchPrerequisites>
   </RecipeDef>
 
   <RecipeDef>
@@ -114,6 +117,9 @@
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <displayPriority>0</displayPriority>
+    <researchPrerequisites>
+      <li>Basic_Alloys</li>
+    </researchPrerequisites>
   </RecipeDef>
 
   <RecipeDef>
@@ -157,6 +163,9 @@
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <displayPriority>1</displayPriority>
+    <researchPrerequisites>
+      <li>Basic_Alloys</li>
+    </researchPrerequisites>
   </RecipeDef>
 
   <RecipeDef>
@@ -200,6 +209,9 @@
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <displayPriority>1</displayPriority>
+    <researchPrerequisites>
+      <li>Basic_Alloys</li>
+    </researchPrerequisites>
   </RecipeDef>
 
   <RecipeDef>
