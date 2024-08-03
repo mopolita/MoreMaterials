@@ -61,7 +61,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>ME_Tin</defName>
     <label>tin</label>
-    <description>Something something, it's not done.</description>
+    <description>tin is a metal commonly used in alloy production and for soldering metal parts.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Raw/ME_Tin</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -116,7 +116,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>ME_Copper</defName>
     <label>copper</label>
-    <description>A light metal which is almost useful for making weapons or structures due to its medium strength. However, it can be used in the production of batteries.</description>
+    <description>A light metal which is sometimes used for making weapons or structures due to its average strength.\n It can also be used in the production of alloys.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Raw/ME_Copper</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -171,7 +171,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>ME_Nickel</defName>
     <label>nickel</label>
-    <description>A shiny metal, not too heavy, often used in the production various equipments and batteries.</description>
+    <description>A shiny metal, not too heavy, often used in the production various equipments.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Raw/ME_Nickel</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -226,7 +226,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>ME_Zinc</defName>
     <label>zinc</label>
-    <description>Something Something, not finished either.</description>
+    <description>Zinc is a metal commonly used as coating to prevent other metals from rusting.\n Its use is also perfect for the making of electrical parts</description>
     <graphicData>
       <texPath>Things/Item/Resource/Raw/ME_Zinc</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -281,7 +281,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>ME_Lithium</defName>
     <label>lithium</label>
-    <description>An unstable metal used in production of batteries.</description>
+    <description>An unstable rare-earth element, mostly used in the production of batteries.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Raw/ME_Lithium</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>

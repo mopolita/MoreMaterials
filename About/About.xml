@@ -9,11 +9,12 @@
     <li>1.4</li>
     <li>1.5</li>
   </supportedVersions>
-  <description>Ever wanted more materials ? This is the mod for you.\n\nAdds 5 new materials, including lead and coppper</description>
+  <description>Have you ever tought that RimWorld needed more materials ? If so this mod is made for you.\n\nAdds 7 new ores and, after you've unlocked the tech, 5 differents alloys</description>
   <loadAfter>
     <li>Ludeon.RimWorld</li>
     <li>Ludeon.RimWorld.Ideology</li>
     <li>Ludeon.RimWorld.Royalty</li>
     <li>Ludeon.RimWorld.Biotech</li>
+    <li>Ludeon.RimWorld.Anomaly</li>
   </loadAfter>
 </ModMetaData>
