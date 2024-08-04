@@ -22,6 +22,7 @@
       <mineableYield>45</mineableYield>
       <mineableScatterCommonality>1</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>30~40</mineableScatterLumpSizeRange>
+      <veinMineable>true</veinMineable>
     </building>
   </ThingDef>
 
@@ -46,6 +47,7 @@
       <mineableYield>40</mineableYield>
       <mineableScatterCommonality>0.7</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>25~35</mineableScatterLumpSizeRange>
+      <veinMineable>true</veinMineable>
     </building>
   </ThingDef>
 
@@ -70,6 +72,7 @@
       <mineableYield>30</mineableYield>
       <mineableScatterCommonality>0.6</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>20~30</mineableScatterLumpSizeRange>
+      <veinMineable>true</veinMineable>
     </building>
   </ThingDef>
 
@@ -94,6 +97,7 @@
       <mineableYield>25</mineableYield>
       <mineableScatterCommonality>0.5</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>15~25</mineableScatterLumpSizeRange>
+      <veinMineable>true</veinMineable>
     </building>
   </ThingDef>
 
@@ -118,6 +122,7 @@
       <mineableYield>20</mineableYield>
       <mineableScatterCommonality>0.4</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>15~25</mineableScatterLumpSizeRange>
+      <veinMineable>true</veinMineable>
     </building>
   </ThingDef>
 
@@ -142,6 +147,7 @@
       <mineableYield>25</mineableYield>
       <mineableScatterCommonality>0.4</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>15~20</mineableScatterLumpSizeRange>
+      <veinMineable>true</veinMineable>
     </building>
   </ThingDef>
 
@@ -166,6 +172,7 @@
       <mineableYield>30</mineableYield>
       <mineableScatterCommonality>0.5</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>20~30</mineableScatterLumpSizeRange>
+      <veinMineable>true</veinMineable>
     </building>
   </ThingDef>
 

@@ -28,7 +28,7 @@
 
   <ThingDef ParentName="ME_IngotBase">
     <defName>ME_BronzeIngot</defName>
-    <label>bronze ingot</label>
+    <label>bronze</label>
     <description>An alloy made from copper and tin, discovered in the ancient times, way before any form of space travel.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Manufactured/ME_BronzeIngot</texPath>
@@ -62,7 +62,7 @@
 
   <ThingDef ParentName="ME_IngotBase">
     <defName>ME_BrassIngot</defName>
-    <label>brass ingot</label>
+    <label>brass</label>
     <description>An alloy made from copper and zinc, discovered in the ancient times, way before any form of space travel.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Manufactured/ME_BrassIngot</texPath>
@@ -96,7 +96,7 @@
 
   <ThingDef ParentName="ME_IngotBase">
     <defName>ME_ElectrumIngot</defName>
-    <label>electrum ingot</label>
+    <label>electrum</label>
     <description>An alloy made from gold and silver, discovered in the ancient times.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Manufactured/ME_ElectrumIngot</texPath>
@@ -130,7 +130,7 @@
 
   <ThingDef ParentName="ME_IngotBase">
     <defName>ME_WhiteGoldIngot</defName>
-    <label>white gold ingot</label>
+    <label>white gold</label>
     <description>A beautiful alloy made from gold, silver and nickel.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Manufactured/ME_WhiteGoldIngot</texPath>
@@ -164,7 +164,7 @@
 
   <ThingDef ParentName="ME_IngotBase">
     <defName>ME_PinkGoldIngot</defName>
-    <label>pink gold ingot</label>
+    <label>pink gold</label>
     <description>A beautiful alloy made from gold, silver and copper.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Manufactured/ME_PinkGoldIngot</texPath>
