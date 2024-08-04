@@ -57,61 +57,6 @@
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
   </ThingDef>
 
-<!-- Tin -->
-  <ThingDef ParentName="ResourceBase">
-    <defName>ME_Tin</defName>
-    <label>tin</label>
-    <description>tin is a metal commonly used in alloy production and for soldering metal parts.</description>
-    <graphicData>
-      <texPath>Things/Item/Resource/Raw/ME_Tin</texPath>
-      <graphicClass>Graphic_StackCount</graphicClass>
-    </graphicData>
-    <soundInteract>Metal_Drop</soundInteract>
-    <soundDrop>Metal_Drop</soundDrop>
-    <useHitPoints>false</useHitPoints>
-    <healthAffectsPrice>false</healthAffectsPrice>
-    <statBases>
-      <MarketValue>1.1</MarketValue>
-      <Mass>0.47</Mass>
-      <StuffPower_Armor_Sharp>0.15</StuffPower_Armor_Sharp>
-      <StuffPower_Armor_Blunt>0.2</StuffPower_Armor_Blunt>
-      <StuffPower_Armor_Heat>0.6</StuffPower_Armor_Heat>
-      <StuffPower_Insulation_Cold>2</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
-      <SharpDamageMultiplier>0.4</SharpDamageMultiplier>
-      <BluntDamageMultiplier>0.8</BluntDamageMultiplier>
-    </statBases>
-    <thingCategories>
-      <li>ResourcesRaw</li>
-    </thingCategories>
-    <stackLimit>75</stackLimit>
-    <deepCommonality>1.45</deepCommonality>
-    <deepCountPerPortion>20</deepCountPerPortion>
-    <deepLumpSizeRange>10~15</deepLumpSizeRange>
-    <burnableByRecipe>false</burnableByRecipe>
-    <smeltable>true</smeltable>
-    <stuffProps>
-      <categories>
-        <li>Metallic</li>
-      </categories>
-      <appearance>Metal</appearance>
-      <commonality>0.15</commonality>
-      <color>(115, 115, 115)</color>
-      <constructEffect>ConstructMetal</constructEffect>
-      <soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
-      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
-      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
-      <statFactors>
-        <MaxHitPoints>0.35</MaxHitPoints>
-        <Flammability>0</Flammability>
-        <Beauty>1.5</Beauty>
-        <WorkToMake>0.5</WorkToMake>
-        <WorkToBuild>0.5</WorkToBuild>
-      </statFactors>
-    </stuffProps>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-  </ThingDef>
-
 <!-- Copper -->
   <ThingDef ParentName="ResourceBase">
     <defName>ME_Copper</defName>
@@ -162,6 +107,61 @@
         <Beauty>2.5</Beauty>
         <WorkToMake>0.95</WorkToMake>
         <WorkToBuild>0.95</WorkToBuild>
+      </statFactors>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+  </ThingDef>
+
+<!-- Tin -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>ME_Tin</defName>
+    <label>tin</label>
+    <description>Tin is a metal commonly used in alloy production and for soldering metal parts.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Raw/ME_Tin</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+      <Mass>0.47</Mass>
+      <StuffPower_Armor_Sharp>0.15</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.2</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.6</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>2</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>0.4</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.8</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    <deepCommonality>1.45</deepCommonality>
+    <deepCountPerPortion>20</deepCountPerPortion>
+    <deepLumpSizeRange>10~15</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>0.15</commonality>
+      <color>(115, 115, 115)</color>
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statFactors>
+        <MaxHitPoints>0.35</MaxHitPoints>
+        <Flammability>0</Flammability>
+        <Beauty>1.5</Beauty>
+        <WorkToMake>0.5</WorkToMake>
+        <WorkToBuild>0.5</WorkToBuild>
       </statFactors>
     </stuffProps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
@@ -226,7 +226,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>ME_Zinc</defName>
     <label>zinc</label>
-    <description>Zinc is a metal commonly used as coating to prevent other metals from rusting.\n Its use is also perfect for the making of electrical parts</description>
+    <description>Zinc is a metal commonly used as coating to prevent other metals from rusting.\n Its use is also perfect for the making of electrical parts.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Raw/ME_Zinc</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>

@@ -14,6 +14,9 @@
     <burnableByRecipe>false</burnableByRecipe>
     <smeltable>true</smeltable>
     <stuffProps>
+      <statFactors>
+        <Flammability>0</Flammability>
+      </statFactors>
       <categories>
         <li>Metallic</li>
       </categories>
@@ -26,10 +29,11 @@
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
   </ThingDef>
 
+<!-- bronze -->
   <ThingDef ParentName="ME_IngotBase">
     <defName>ME_BronzeIngot</defName>
     <label>bronze</label>
-    <description>An alloy made from copper and tin, discovered in the ancient times, way before any form of space travel.</description>
+    <description>A prehistoric alloy made from copper and tin.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Manufactured/ME_BronzeIngot</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -50,20 +54,19 @@
       <color>(176, 99, 4)</color>
       <statFactors>
         <MaxHitPoints>0.8</MaxHitPoints>
-        <Flammability>0</Flammability>
         <Beauty>1.7</Beauty>
         <WorkToMake>1.15</WorkToMake>
         <WorkToBuild>1.15</WorkToBuild>
         <MeleeWeapon_CooldownMultiplier>0.9</MeleeWeapon_CooldownMultiplier>
       </statFactors>
     </stuffProps>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
   </ThingDef>
 
+<!-- brass -->
   <ThingDef ParentName="ME_IngotBase">
     <defName>ME_BrassIngot</defName>
     <label>brass</label>
-    <description>An alloy made from copper and zinc, discovered in the ancient times, way before any form of space travel.</description>
+    <description>A very common alloy made from copper and zinc.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Manufactured/ME_BrassIngot</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -84,20 +87,19 @@
       <color>(156, 146, 12)</color>
       <statFactors>
         <MaxHitPoints>1</MaxHitPoints>
-        <Flammability>0</Flammability>
         <Beauty>1</Beauty>
         <WorkToMake>1.35</WorkToMake>
         <WorkToBuild>1.35</WorkToBuild>
         <MeleeWeapon_CooldownMultiplier>1.1</MeleeWeapon_CooldownMultiplier>
       </statFactors>
     </stuffProps>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
   </ThingDef>
 
+<!-- electrum -->
   <ThingDef ParentName="ME_IngotBase">
     <defName>ME_ElectrumIngot</defName>
     <label>electrum</label>
-    <description>An alloy made from gold and silver, discovered in the ancient times.</description>
+    <description>An alloy made from gold and silver, sometimes found naturally.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Manufactured/ME_ElectrumIngot</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -118,16 +120,15 @@
       <color>(205, 140, 47)</color>
       <statFactors>
         <MaxHitPoints>1</MaxHitPoints>
-        <Flammability>0</Flammability>
         <Beauty>2</Beauty>
         <WorkToMake>1.5</WorkToMake>
         <WorkToBuild>1.5</WorkToBuild>
         <MeleeWeapon_CooldownMultiplier>1.2</MeleeWeapon_CooldownMultiplier>
       </statFactors>
     </stuffProps>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
   </ThingDef>
 
+<!-- white gold -->
   <ThingDef ParentName="ME_IngotBase">
     <defName>ME_WhiteGoldIngot</defName>
     <label>white gold</label>
@@ -152,16 +153,15 @@
       <color>(131, 126, 126)</color>
       <statFactors>
         <MaxHitPoints>0.5</MaxHitPoints>
-        <Flammability>0</Flammability>
         <Beauty>4</Beauty>
         <WorkToMake>1.75</WorkToMake>
         <WorkToBuild>1.75</WorkToBuild>
         <MeleeWeapon_CooldownMultiplier>1.5</MeleeWeapon_CooldownMultiplier>
       </statFactors>
     </stuffProps>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
   </ThingDef>
 
+<!-- pink gold -->
   <ThingDef ParentName="ME_IngotBase">
     <defName>ME_PinkGoldIngot</defName>
     <label>pink gold</label>
@@ -186,14 +186,12 @@
       <color>(131, 126, 126)</color>
       <statFactors>
         <MaxHitPoints>0.5</MaxHitPoints>
-        <Flammability>0</Flammability>
         <Beauty>4</Beauty>
         <WorkToMake>1.75</WorkToMake>
         <WorkToBuild>1.75</WorkToBuild>
         <MeleeWeapon_CooldownMultiplier>1.5</MeleeWeapon_CooldownMultiplier>
       </statFactors>
     </stuffProps>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
   </ThingDef>
 
 </Defs>

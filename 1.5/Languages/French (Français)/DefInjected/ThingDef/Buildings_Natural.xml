@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: lead ore -->
+  <ME_MineableLead.label>minerai de plomb</ME_MineableLead.label>
+  <!-- EN: Rock containing bits of lead. -->
+  <ME_MineableLead.description>Pierre contenant des morceaux de plomb.</ME_MineableLead.description>
+
+  <!-- EN: copper ore -->
+  <ME_MineableCopper.label>minerai de cuivre</ME_MineableCopper.label>
+  <!-- EN: Rock containing bits of copper. -->
+  <ME_MineableCopper.description>Pierre contenant des morceaux de cuivre.</ME_MineableCopper.description>
+
+  <!-- EN: tin ore -->
+  <ME_MineableTin.label>minerai d'étain</ME_MineableTin.label>
+  <!-- EN: Rock containing bits of tin. -->
+  <ME_MineableTin.description>Pierre contenant des morceaux d'étain.</ME_MineableTin.description>
+
+  <!-- EN: nickel ore -->
+  <ME_MineableNickel.label>minerai de nickel</ME_MineableNickel.label>
+  <!-- EN: Rock containing bits of nickel. -->
+  <ME_MineableNickel.description>Pierre contenant des morceaux de nickel.</ME_MineableNickel.description>
+
+  <!-- EN: zinc ore -->
+  <ME_MineableZinc.label>minerai de zinc</ME_MineableZinc.label>
+  <!-- EN: Rock containing bits of zinc. -->
+  <ME_MineableZinc.description>Pierre contenant des morceaux de zinc.</ME_MineableZinc.description>
+
+  <!-- EN: lithium ore -->
+  <ME_MineableLithium.label>minerai de lithium</ME_MineableLithium.label>
+  <!-- EN: Rock containing bits of lithium. -->
+  <ME_MineableLithium.description>Pierre contenant des morceaux de lithium.</ME_MineableLithium.description>
+
+  <!-- EN: coal ore -->
+  <ME_MineableCoal.label>minerai de charbon</ME_MineableCoal.label>
+  <!-- EN: Rock containing bits of copper. -->
+  <ME_MineableCoal.description>Pierre contenant des morceaux de charbon.</ME_MineableCoal.description>
+
+</LanguageData>

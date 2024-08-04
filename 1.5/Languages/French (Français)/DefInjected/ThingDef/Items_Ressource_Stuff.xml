@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: lead -->
+  <ME_Lead.label>plomb</ME_Lead.label>
+  <!-- EN: A soft, heavy metal which isn't really useful for making weapons or structures due to its low strength and heaviness. -->
+  <ME_Lead.description>Un métal lourd, peu utilisé dans la création d'armes ou de structures à cause de sa faible dureté et de son poids élevé.</ME_Lead.description>
+
+  <!-- EN: copper -->
+  <ME_Copper.label>cuivre</ME_Copper.label>
+  <!-- EN: A light metal which is sometimes used for making weapons or structures due to its average strength.\n It can also be used in the production of alloys. -->
+  <ME_Copper.description>Un métal léger, parfois utilisé dans la fabrication d'armes et de structures.\n Il est souvent utilisé dans la production d'alliages.</ME_Copper.description>
+
+  <!-- EN: tin -->
+  <ME_Tin.label>étain</ME_Tin.label>
+  <!-- EN: Tin is a metal commonly used in alloy production and for soldering metal parts. -->
+  <ME_Tin.description>L'étain est un minerai communément utilisé dans la production d'alliages ou pour en soudure.</ME_Tin.description>
+
+  <!-- EN: nickel -->
+  <ME_Nickel.label>nickel</ME_Nickel.label>
+  <!-- EN: A shiny metal, not too heavy, often used in the production various equipments. -->
+  <ME_Nickel.description>Un métal brillant et assez solide, souvent utilisé dans la production de divers équipements.</ME_Nickel.description>
+
+  <!-- EN: zinc -->
+  <ME_Zinc.label>zinc</ME_Zinc.label>
+  <!-- EN: Zinc is a metal commonly used as coating to prevent other metals from rusting.\n Its use is also perfect for the making of electrical parts. -->
+  <ME_Zinc.description>Le zinc est un métal communément utilisé comme revêtement pour empêcher la détérioration d'autres métaux.\n C'est un métal très adapté à la fabrication de composants électriques.</ME_Zinc.description>
+
+  <!-- EN: lithium -->
+  <ME_Lithium.label>lithium</ME_Lithium.label>
+  <!-- EN: An unstable rare-earth element, mostly used in the production of batteries. -->
+  <ME_Lithium.description>Une terre rare instable, le plus souvent utilisée dans la production de batteries.</ME_Lithium.description>
+
+</LanguageData>
