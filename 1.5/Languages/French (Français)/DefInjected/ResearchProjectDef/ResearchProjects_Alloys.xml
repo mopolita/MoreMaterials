@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: basic alloys -->
+  <Basic_Alloys.label>alliages basiques</Basic_Alloys.label>
+  <!-- EN: Learn how to do some basic alloy smithing. -->
+  <Basic_Alloys.description>Apprenez à produire quelques alliages basiques.</Basic_Alloys.description>
+
+  <!-- EN: advanced alloys -->
+  <Advanced_Alloys.label>alliages avancés</Advanced_Alloys.label>
+  <!-- EN: Alloys that are harder to produce. They require more advanced smithing techniques. -->
+  <Advanced_Alloys.description>Des alliages plus difficiles à produire, qui demandent des techniques plus avancées.</Advanced_Alloys.description>
+
+</LanguageData>

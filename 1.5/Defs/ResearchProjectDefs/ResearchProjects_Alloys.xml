@@ -17,7 +17,7 @@
   <ResearchProjectDef>
     <defName>Advanced_Alloys</defName>
     <label>advanced alloys</label>
-    <description>Advanced alloys that requires more specific smithing techniques.</description>
+    <description>Alloys that are harder to produce. They require more advanced smithing techniques.</description>
     <baseCost>500</baseCost>
     <techLevel>Medieval</techLevel>
     <prerequisites>

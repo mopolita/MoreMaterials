@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: make chemfuel from coal -->
+  <Make_ChemfuelFromCoal.label>raffiner du chemfuel à partir de charbon</Make_ChemfuelFromCoal.label>
+  <!-- EN: Make a batch of chemfuel by extracting and condensing carbon from coal. -->
+  <Make_ChemfuelFromCoal.description>Produit du chemfuel en extrayant puis en condensant le carbone du charbon.</Make_ChemfuelFromCoal.description>
+
+</LanguageData>
