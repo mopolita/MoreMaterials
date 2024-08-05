@@ -31,4 +31,9 @@
   <!-- EN: An unstable rare-earth element, mostly used in the production of batteries. -->
   <ME_Lithium.description>Une terre rare instable, le plus souvent utilisée dans la production de batteries.</ME_Lithium.description>
 
+  <!-- EN: coal -->
+  <ME_Coal.label>charbon</ME_Coal.label>
+  <!-- EN: a black, burnable material having a variety of uses. -->
+  <ME_Coal.description>Un matériau inflammable, e couleur noire, souvent utilisé comme combustible.</ME_Coal.description>
+
 </LanguageData>
