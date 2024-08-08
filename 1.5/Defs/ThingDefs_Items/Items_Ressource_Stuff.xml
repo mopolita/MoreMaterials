@@ -46,7 +46,7 @@
       <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
       <statFactors>
-        <MaxHitPoints>0.5</MaxHitPoints>
+        <MaxHitPoints>0.6</MaxHitPoints>
         <Flammability>0</Flammability>
         <Beauty>1</Beauty>
         <WorkToMake>0.8</WorkToMake>
@@ -102,7 +102,7 @@
       <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
       <statFactors>
-        <MaxHitPoints>0.7</MaxHitPoints>
+        <MaxHitPoints>0.8</MaxHitPoints>
         <Flammability>0</Flammability>
         <Beauty>2.5</Beauty>
         <WorkToMake>0.95</WorkToMake>
@@ -157,7 +157,7 @@
       <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
       <statFactors>
-        <MaxHitPoints>0.35</MaxHitPoints>
+        <MaxHitPoints>0.75</MaxHitPoints>
         <Flammability>0</Flammability>
         <Beauty>1.5</Beauty>
         <WorkToMake>0.5</WorkToMake>
