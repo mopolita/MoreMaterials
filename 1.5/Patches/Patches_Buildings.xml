@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
+<!-- Autodoor -->
   <Operation Class="PatchOperationReplace">
     <xpath>*/ThingDef[defName = "Autodoor"]/costList/Steel</xpath>
     <value>
@@ -12,6 +13,43 @@
     <xpath>*/ThingDef[defName = "Autodoor"]/costList</xpath>
     <value>
       <ME_Copper>10</ME_Copper>
+    </value>
+  </Operation>
+
+<!-- ElectricSmithy -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "ElectricSmithy"]/costList/Steel</xpath>
+    <value>
+      <Steel>90</Steel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "ElectricSmithy"]/costList</xpath>
+    <value>
+      <ME_Copper>10</ME_Copper>
+    </value>
+  </Operation>
+
+<!-- TableMachining -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "TableMachining"]/costList/Steel</xpath>
+    <value>
+      <Steel>140</Steel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "TableMachining"]/costList</xpath>
+    <value>
+      <ME_Copper>10</ME_Copper>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "TableMachining"]/costList</xpath>
+    <value>
+      <ME_Lead>20</ME_Lead>
     </value>
   </Operation>
 
