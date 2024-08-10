@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<loadFolder>
+
+  <v1.4>
+    <li>/</li>
+    <li>1.4</li>
+    <li>Common</li>
+  </v1.4>
+
+  <v1.5>
+    <li>/</li>
+    <li>1.5</li>
+    <li>Common</li>
+    <li IfModActive="Ludeon.RimWorld.Ideology">Ideology/1.5</li>
+  </v1.5>
+
+</loadFolder>
