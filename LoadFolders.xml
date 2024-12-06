@@ -11,7 +11,7 @@
     <li>/</li>
     <li>1.5</li>
     <li>Common</li>
-    <li IfModActive="Ludeon.RimWorld.Ideology">Ideology/1.5</li>
+    <li IfModActive="Ludeon.RimWorld.Ideology">Ideology</li>
   </v1.5>
 
 </loadFolder>

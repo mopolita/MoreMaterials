@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- PowerConduit -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "PowerConduit"]/costList</xpath>
+    <value>
+      <ME_Copper>1</ME_Copper>
+    </value>
+  </Operation>
+
+<!-- HiddenConduit -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "HiddenConduit"]/costList</xpath>
+    <value>
+      <ME_Copper>1</ME_Copper>
+    </value>
+  </Operation>
+
+<!-- WaterproofConduit -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "WaterproofConduit"]/costList/Steel</xpath>
+    <value>
+      <Steel>8</Steel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "WaterproofConduit"]/costList</xpath>
+    <value>
+      <ME_Copper>2</ME_Copper>
+    </value>
+  </Operation>
+
+<!-- PowerSwitch -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "PowerSwitch"]/costList/Steel</xpath>
+    <value>
+      <Steel>13</Steel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "PowerSwitch"]/costList</xpath>
+    <value>
+      <ME_Copper>2</ME_Copper>
+    </value>
+  </Operation>
+
+<!-- WoodFiredGenerator -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "WoodFiredGenerator"]/costList/Steel</xpath>
+    <value>
+      <Steel>90</Steel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "WoodFiredGenerator"]/costList</xpath>
+    <value>
+      <ME_Copper>10</ME_Copper>
+    </value>
+  </Operation>
+
+<!-- ChemfuelPoweredGenerator -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "ChemfuelPoweredGenerator"]/costList/Steel</xpath>
+    <value>
+      <Steel>90</Steel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "ChemfuelPoweredGenerator"]/costList</xpath>
+    <value>
+      <ME_Copper>10</ME_Copper>
+    </value>
+  </Operation>
+
+<!-- WindTurbine -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "WindTurbine"]/costList/Steel</xpath>
+    <value>
+      <Steel>90</Steel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "WindTurbine"]/costList</xpath>
+    <value>
+      <ME_Copper>10</ME_Copper>
+    </value>
+  </Operation>
+
+<!-- SolarGenerator -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "SolarGenerator"]/costList/Steel</xpath>
+    <value>
+      <Steel>90</Steel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "SolarGenerator"]/costList</xpath>
+    <value>
+      <ME_Copper>10</ME_Copper>
+    </value>
+  </Operation>
+
+<!-- GeothermalGenerator -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "GeothermalGenerator"]/costList/Steel</xpath>
+    <value>
+      <Steel>306</Steel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "GeothermalGenerator"]/costList</xpath>
+    <value>
+      <ME_Copper>34</ME_Copper>
+    </value>
+  </Operation>
+
+<!-- WatermillGenerator -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "WatermillGenerator"]/costList/Steel</xpath>
+    <value>
+      <Steel>72</Steel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "WatermillGenerator"]/costList</xpath>
+    <value>
+      <ME_Copper>8</ME_Copper>
+    </value>
+  </Operation>
+
+</Patch>

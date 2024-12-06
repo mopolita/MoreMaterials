@@ -73,7 +73,7 @@
     <statBases>
       <MarketValue>1.4</MarketValue>
       <Mass>0.57</Mass>
-      <StuffPower_Armor_Sharp>04</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Sharp>0.45</StuffPower_Armor_Sharp>
       <StuffPower_Armor_Blunt>0.5</StuffPower_Armor_Blunt>
       <StuffPower_Armor_Heat>0.75</StuffPower_Armor_Heat>
       <StuffPower_Insulation_Cold>5</StuffPower_Insulation_Cold>
