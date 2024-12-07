@@ -43,6 +43,12 @@
             <Glass>10</Glass>
           </value>
         </li>
+        <li Class="PatchOperationAdd">
+          <xpath>*/ThingDef[defName = "SolarGenerator"]/costList</xpath>
+          <value>
+            <Glass>20</Glass>
+          </value>
+        </li>
       </operations>
     </match>
   </Operation>

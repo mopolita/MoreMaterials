@@ -99,6 +99,27 @@
     </value>
   </Operation>
 
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "ChemfuelPoweredGenerator"]/costList</xpath>
+    <value>
+      <ME_Zinc>10</ME_Zinc>
+    </value>
+  
+  </Operation>
+    <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "ChemfuelPoweredGenerator"]/costList</xpath>
+    <value>
+      <ME_BronzeIngot>10</ME_BronzeIngot>
+    </value>
+  
+  </Operation>
+    <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "ChemfuelPoweredGenerator"]/costList</xpath>
+    <value>
+      <ME_CastIronIngot>20</ME_CastIronIngot>
+    </value>
+  </Operation>
+
 <!-- WindTurbine -->
   <Operation Class="PatchOperationReplace">
     <xpath>*/ThingDef[defName = "WindTurbine"]/costList/Steel</xpath>
@@ -114,11 +135,25 @@
     </value>
   </Operation>
 
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "WindTurbine"]/costList</xpath>
+    <value>
+      <ME_Zinc>5</ME_Zinc>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "WindTurbine"]/costList</xpath>
+    <value>
+      <ME_CastIronIngot>20</ME_CastIronIngot>
+    </value>
+  </Operation>
+
 <!-- SolarGenerator -->
   <Operation Class="PatchOperationReplace">
     <xpath>*/ThingDef[defName = "SolarGenerator"]/costList/Steel</xpath>
     <value>
-      <Steel>90</Steel>
+      <Steel>80</Steel>
     </value>
   </Operation>
 
@@ -129,33 +164,75 @@
     </value>
   </Operation>
 
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "SolarGenerator"]/costList</xpath>
+    <value>
+      <ME_Zinc>5</ME_Zinc>
+    </value>
+  </Operation>
+
 <!-- GeothermalGenerator -->
   <Operation Class="PatchOperationReplace">
     <xpath>*/ThingDef[defName = "GeothermalGenerator"]/costList/Steel</xpath>
     <value>
-      <Steel>306</Steel>
+      <Steel>300</Steel>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationAdd">
     <xpath>*/ThingDef[defName = "GeothermalGenerator"]/costList</xpath>
     <value>
-      <ME_Copper>34</ME_Copper>
+      <ME_Copper>30</ME_Copper>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "GeothermalGenerator"]/costList</xpath>
+    <value>
+      <ME_Zinc>10</ME_Zinc>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "GeothermalGenerator"]/costList</xpath>
+    <value>
+      <ME_CastIronIngot>60</ME_CastIronIngot>
     </value>
   </Operation>
 
 <!-- WatermillGenerator -->
   <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "WatermillGenerator"]/costList/WoodLog</xpath>
+    <value>
+      <WoodLog>250</WoodLog>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
     <xpath>*/ThingDef[defName = "WatermillGenerator"]/costList/Steel</xpath>
     <value>
-      <Steel>72</Steel>
+      <Steel>100</Steel>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationAdd">
     <xpath>*/ThingDef[defName = "WatermillGenerator"]/costList</xpath>
     <value>
-      <ME_Copper>8</ME_Copper>
+      <ME_Copper>20</ME_Copper>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "WatermillGenerator"]/costList</xpath>
+    <value>
+      <ME_Zinc>10</ME_Zinc>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "WatermillGenerator"]/costList</xpath>
+    <value>
+      <ME_CastIronIngot>30</ME_CastIronIngot>
     </value>
   </Operation>
 
