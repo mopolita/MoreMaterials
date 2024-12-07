@@ -51,7 +51,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>*/ThingDef[defName = "TableMachining"]/costList/Steel</xpath>
     <value>
-      <Steel>140</Steel>
+      <Steel>100</Steel>
     </value>
   </Operation>
 
@@ -72,14 +72,14 @@
   <Operation Class="PatchOperationAdd">
     <xpath>*/ThingDef[defName = "TableMachining"]/costList</xpath>
     <value>
-      <ME_BronzeIngot>15</ME_BronzeIngot>
+      <ME_BrassIngot>10</ME_BrassIngot>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationAdd">
     <xpath>*/ThingDef[defName = "TableMachining"]/costList</xpath>
     <value>
-      <ME_BrassIngot>10</ME_BrassIngot>
+      <ME_CastIronIngot>15</ME_CastIronIngot>
     </value>
   </Operation>
 
@@ -109,7 +109,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>*/ThingDef[defName = "ElectricSmelter"]/costList/Steel</xpath>
     <value>
-      <Steel>160</Steel>
+      <Steel>110</Steel>
     </value>
   </Operation>
 
@@ -141,7 +141,21 @@
     </value>
   </Operation>
 
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "ElectricSmelter"]/costList</xpath>
+    <value>
+      <ME_CastIronIngot>50</ME_CastIronIngot>
+    </value>
+  </Operation>
+
 <!-- DrugLab -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "DrugLab"]/costList/Steel</xpath>
+    <value>
+      <Steel>60</Steel>
+    </value>
+  </Operation>
+
   <Operation Class="PatchOperationAdd">
     <xpath>*/ThingDef[defName = "DrugLab"]/costList</xpath>
     <value>
@@ -156,7 +170,21 @@
     </value>
   </Operation>
 
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "DrugLab"]/costList</xpath>
+    <value>
+      <ME_CastIronIngot>15</ME_CastIronIngot>
+    </value>
+  </Operation>
+
 <!-- BiofuelRefinery -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "BiofuelRefinery"]/costList/Steel</xpath>
+    <value>
+      <Steel>100</Steel>
+    </value>
+  </Operation>
+
   <Operation Class="PatchOperationAdd">
     <xpath>*/ThingDef[defName = "BiofuelRefinery"]/costList</xpath>
     <value>
@@ -175,6 +203,13 @@
     <xpath>*/ThingDef[defName = "BiofuelRefinery"]/costList</xpath>
     <value>
       <ME_Lead>8</ME_Lead>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "BiofuelRefinery"]/costList</xpath>
+    <value>
+      <ME_CastIronIngot>50</ME_CastIronIngot>
     </value>
   </Operation>
 
@@ -225,6 +260,20 @@
   </Operation>
 
 <!-- ElectricCrematorium -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "BiofuelRefinery"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>125</costStuffCount>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "BiofuelRefinery"]/costList/Steel</xpath>
+    <value>
+      <Steel>15</Steel>
+    </value>
+  </Operation>
+
   <Operation Class="PatchOperationAdd">
     <xpath>*/ThingDef[defName = "ElectricCrematorium"]/costList</xpath>
     <value>
@@ -243,6 +292,13 @@
     <xpath>*/ThingDef[defName = "ElectricCrematorium"]/costList</xpath>
     <value>
       <ME_Lead>5</ME_Lead>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "ElectricCrematorium"]/costList</xpath>
+    <value>
+      <ME_CastIronIngot>30</ME_CastIronIngot>
     </value>
   </Operation>
 
@@ -269,6 +325,13 @@
   </Operation>
 
 <!-- DeepDrill -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "BiofuelRefinery"]/costList/Steel</xpath>
+    <value>
+      <Steel>75</Steel>
+    </value>
+  </Operation>
+
   <Operation Class="PatchOperationAdd">
     <xpath>*/ThingDef[defName = "DeepDrill"]/costList</xpath>
     <value>
@@ -294,6 +357,13 @@
     <xpath>*/ThingDef[defName = "DeepDrill"]/costList</xpath>
     <value>
       <ME_Zinc>5</ME_Zinc>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "DeepDrill"]/costList</xpath>
+    <value>
+      <ME_CastIronIngot>25</ME_CastIronIngot>
     </value>
   </Operation>
 

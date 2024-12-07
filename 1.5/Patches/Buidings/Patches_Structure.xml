@@ -2,6 +2,13 @@
 <Patch>
 
 <!-- Autodoor -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "Autodoor"]/costList/Steel</xpath>
+    <value>
+      <Steel>30</Steel>
+    </value>
+  </Operation>
+
   <Operation Class="PatchOperationAdd">
     <xpath>*/ThingDef[defName = "Autodoor"]/costList</xpath>
     <value>
@@ -13,6 +20,13 @@
     <xpath>*/ThingDef[defName = "Autodoor"]/costList</xpath>
     <value>
       <ME_Lead>5</ME_Lead>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Autodoor"]/costList</xpath>
+    <value>
+      <ME_CastIronIngot>10</ME_CastIronIngot>
     </value>
   </Operation>
 
