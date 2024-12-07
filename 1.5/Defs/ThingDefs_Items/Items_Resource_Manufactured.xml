@@ -95,6 +95,39 @@
     </stuffProps>
   </ThingDef>
 
+<!-- cast iron -->
+  <ThingDef ParentName="ME_IngotBase">
+    <defName>ME_CastIronIngot</defName>
+    <label>cast iron</label>
+    <description>A common alloy made from iron and coal.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Manufactured/ME_CastIronIngot</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.5</MarketValue>
+      <Mass>0.7</Mass>
+      <StuffPower_Armor_Sharp>0.7</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.8</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.4</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>2.0</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>1.0</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.4</BluntDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <commonality>0.8</commonality>
+      <color>(60, 60, 65)</color>
+      <statFactors>
+        <MaxHitPoints>1</MaxHitPoints>
+        <Beauty>0.8</Beauty>
+        <WorkToMake>1.5</WorkToMake>
+        <WorkToBuild>1.5</WorkToBuild>
+        <MeleeWeapon_CooldownMultiplier>1.2</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
 <!-- electrum -->
   <ThingDef ParentName="ME_IngotBase">
     <defName>ME_ElectrumIngot</defName>
