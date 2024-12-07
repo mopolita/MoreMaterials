@@ -261,14 +261,14 @@
 
 <!-- ElectricCrematorium -->
   <Operation Class="PatchOperationReplace">
-    <xpath>*/ThingDef[defName = "BiofuelRefinery"]/costStuffCount</xpath>
+    <xpath>*/ThingDef[defName = "ElectricCrematorium"]/costStuffCount</xpath>
     <value>
       <costStuffCount>125</costStuffCount>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
-    <xpath>*/ThingDef[defName = "BiofuelRefinery"]/costList/Steel</xpath>
+    <xpath>*/ThingDef[defName = "ElectricCrematorium"]/costList/Steel</xpath>
     <value>
       <Steel>15</Steel>
     </value>
@@ -326,7 +326,7 @@
 
 <!-- DeepDrill -->
   <Operation Class="PatchOperationReplace">
-    <xpath>*/ThingDef[defName = "BiofuelRefinery"]/costList/Steel</xpath>
+    <xpath>*/ThingDef[defName = "DeepDrill"]/costList/Steel</xpath>
     <value>
       <Steel>75</Steel>
     </value>
