@@ -12,7 +12,7 @@
   <Operation Class="PatchOperationAdd">
     <xpath>*/ThingDef[defName = "Autodoor"]/costList</xpath>
     <value>
-      <ME_Lead>5</ME_BrassIngot>
+      <ME_Lead>5</ME_Lead>
     </value>
   </Operation>
 
