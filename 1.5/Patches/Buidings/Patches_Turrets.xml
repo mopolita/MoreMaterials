@@ -95,4 +95,69 @@
     </value>
   </Operation>
 
+<!-- Turret_Autocannon -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "Turret_Autocannon"]/costList/Steel</xpath>
+    <value>
+      <Steel>300</Steel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Turret_Autocannon"]/costList</xpath>
+    <value>
+      <ME_CastIronIngot>50</ME_CastIronIngot>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Turret_Autocannon"]/costList</xpath>
+    <value>
+      <ME_Copper>10</ME_Copper>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Turret_Autocannon"]/costList</xpath>
+    <value>
+      <ME_BrassIngot>10</ME_BrassIngot>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Turret_Autocannon"]/comps/li[@Class = "CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+    <value>
+      <li>ME_Lead</li>
+    </value>
+  </Operation>
+
+<!-- Turret_Sniper (uranium slug turret) -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "Turret_Autocannon"]/costList/Steel</xpath>
+    <value>
+      <Steel>280</Steel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Turret_Autocannon"]/costList</xpath>
+    <value>
+      <ME_CastIronIngot>40</ME_CastIronIngot>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Turret_Autocannon"]/costList</xpath>
+    <value>
+      <ME_Copper>10</ME_Copper>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Turret_Autocannon"]/costList</xpath>
+    <value>
+      <ME_BrassIngot>10</ME_BrassIngot>
+    </value>
+  </Operation>
+
 </Patch>
