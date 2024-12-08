@@ -391,4 +391,26 @@
     </value>
   </Operation>
 
+<!-- Hopper -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "Hopper"]/costList/Steel</xpath>
+    <value>
+      <Steel>10</Steel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Hopper"]/costList</xpath>
+    <value>
+      <ME_CastIronIngot>8</ME_CastIronIngot>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Hopper"]/costList</xpath>
+    <value>
+      <ME_Zinc>2</ME_Zinc>
+    </value>
+  </Operation>
+
 </Patch>

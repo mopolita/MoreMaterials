@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- Turret_FoamTurret -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "Turret_FoamTurret"]/costList/Steel</xpath>
+    <value>
+      <Steel>30</Steel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Turret_FoamTurret"]/costList</xpath>
+    <value>
+      <ME_CastIronIngot>25</ME_CastIronIngot>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Turret_FoamTurret"]/costList</xpath>
+    <value>
+      <ME_Zinc>3</ME_Zinc>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Turret_FoamTurret"]/costList</xpath>
+    <value>
+      <ME_Copper>10</ME_Copper>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Turret_FoamTurret"]/costList</xpath>
+    <value>
+      <ME_BrassIngot>5</ME_BrassIngot>
+    </value>
+  </Operation>
+
+<!-- Turret_RocketswarmLauncher -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "Turret_RocketswarmLauncher"]/costList/Steel</xpath>
+    <value>
+      <Steel>150</Steel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Turret_RocketswarmLauncher"]/costList</xpath>
+    <value>
+      <ME_CastIronIngot>20</ME_CastIronIngot>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Turret_RocketswarmLauncher"]/costList</xpath>
+    <value>
+      <ME_Copper>10</ME_Copper>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Turret_RocketswarmLauncher"]/costList</xpath>
+    <value>
+      <ME_BrassIngot>10</ME_BrassIngot>
+    </value>
+  </Operation>
+
+<!-- Turret_MiniTurret -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "Turret_MiniTurret"]/costList/Steel</xpath>
+    <value>
+      <Steel>60</Steel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Turret_MiniTurret"]/costList</xpath>
+    <value>
+      <ME_CastIronIngot>20</ME_CastIronIngot>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Turret_MiniTurret"]/costList</xpath>
+    <value>
+      <ME_Copper>5</ME_Copper>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Turret_MiniTurret"]/comps/li[@Class = "CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+    <value>
+      <li>ME_Lead</li>
+    </value>
+  </Operation>
+
+</Patch>
