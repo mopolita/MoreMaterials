@@ -133,30 +133,52 @@
 
 <!-- Turret_Sniper (uranium slug turret) -->
   <Operation Class="PatchOperationReplace">
-    <xpath>*/ThingDef[defName = "Turret_Autocannon"]/costList/Steel</xpath>
+    <xpath>*/ThingDef[defName = "Turret_Sniper"]/costList/Steel</xpath>
     <value>
       <Steel>280</Steel>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "Turret_Autocannon"]/costList</xpath>
+    <xpath>*/ThingDef[defName = "Turret_Sniper"]/costList</xpath>
     <value>
       <ME_CastIronIngot>40</ME_CastIronIngot>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "Turret_Autocannon"]/costList</xpath>
+    <xpath>*/ThingDef[defName = "Turret_Sniper"]/costList</xpath>
     <value>
       <ME_Copper>10</ME_Copper>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "Turret_Autocannon"]/costList</xpath>
+    <xpath>*/ThingDef[defName = "Turret_Sniper"]/costList</xpath>
     <value>
       <ME_BrassIngot>10</ME_BrassIngot>
+    </value>
+  </Operation>
+
+<!-- Turret_Mortar -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Turret_Mortar"]/costListForDifficulty/costList</xpath>
+    <value>
+      <Steel>20</Steel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Turret_Mortar"]/costListForDifficulty/costList</xpath>
+    <value>
+      <ME_CastIronIngot>30</ME_CastIronIngot>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Turret_Mortar"]/costListForDifficulty/costList</xpath>
+    <value>
+      <ME_Copper>5</ME_Copper>
     </value>
   </Operation>
 
