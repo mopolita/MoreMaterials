@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- TubeTelevision -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "TubeTelevision"]/costList</xpath>
+    <value>
+      <ME_Copper>15</ME_Copper>
+    </value>
+  </Operation>
+
+<!-- FlatscreenTelevision -->
+<Operation Class="PatchOperationAdd">
+  <xpath>*/ThingDef[defName = "FlatscreenTelevision"]/costList</xpath>
+  <value>
+    <ME_Copper>30</ME_Copper>
+  </value>
+</Operation>
+
+</Patch>

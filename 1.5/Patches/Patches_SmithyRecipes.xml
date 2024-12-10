@@ -167,26 +167,6 @@
   </Operation>
 
 <!-- Cast iron --> 
-  <Operation Class="PatchOperationConditional">
-    <xpath>*/ThingDef[defName = "FueledSmithy"]/recipes</xpath>
-    <nomatch Class="PatchOperationAdd">
-      <xpath>*/ThingDef[defName = "FueledSmithy"]</xpath>
-      <value>
-        <recipes />
-      </value>
-    </nomatch>
-  </Operation>
-
-  <Operation Class="PatchOperationConditional">
-    <xpath>*/ThingDef[defName = "ElectricSmithy"]/recipes</xpath>
-    <nomatch Class="PatchOperationAdd">
-      <xpath>*/ThingDef[defName = "ElectricSmithy"]</xpath>
-      <value>
-        <recipes />
-      </value>
-    </nomatch>
-  </Operation>
-
   <Operation Class="PatchOperationAdd">
     <xpath>*/ThingDef[defName = "FueledSmithy"]/recipes</xpath>
     <value>

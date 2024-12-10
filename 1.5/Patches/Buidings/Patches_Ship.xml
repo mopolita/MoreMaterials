@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- Ship_Beam -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Ship_Beam"]/costList</xpath>
+    <value>
+      <ME_BronzeIngot>50</ME_BronzeIngot>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Ship_Beam"]/costList</xpath>
+    <value>
+      <ME_Nickel>20</ME_Nickel>
+    </value>
+  </Operation>
+
+</Patch>
