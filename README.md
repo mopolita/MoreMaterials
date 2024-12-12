@@ -7,7 +7,7 @@ This is a mod for the game Rimworld that adds several materials and alloys to th
 ## 🚀 Download
 
 If you have the Rimworld on steam, you can just subscribe to the mod in the [workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3055040889).  
-If you have the game elsewere, just download all the files, and put decompressed the folder into "whereverthegamefolderis"/Rimworld/Mods.  
+If you have the game elsewere, just download all the files, and put decompressed the folder into "whereverthegamefolderis"/Rimworld/Mods (you can remove the ".git" folder and the .gitattributes file).  
 
 ## 💭 Feedback and Contributing
 
