@@ -71,7 +71,7 @@
   <Operation Class="PatchOperationAdd">
     <xpath>*/ThingDef[defName = "FloodLight"]/costList</xpath>
     <value>
-      <ME_Lead>5</ME_Lead>
+      <ME_Nickel>5</ME_Nickel>
     </value>
   </Operation>
 

@@ -8,6 +8,30 @@
     <match Class="PatchOperationSequence">
       <operations>
         <li Class="PatchOperationAdd">
+          <xpath>*/ThingDef[defName = "StandingLamp"]/costList</xpath>
+          <value>
+            <Glass>2</Glass>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>*/ThingDef[defName = "SunLamp"]/costList</xpath>
+          <value>
+            <Glass>2</Glass>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>*/ThingDef[defName = "WallLamp"]/costList</xpath>
+          <value>
+            <Glass>2</Glass>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>*/ThingDef[defName = "FloodLight"]/costList</xpath>
+          <value>
+            <Glass>2</Glass>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
           <xpath>*/ThingDef[defName = "DrugLab"]/costList</xpath>
           <value>
             <Glass>10</Glass>
