@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Glass+Lights</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>*/ThingDef[defName = "StandingLamp"]/costList</xpath>
+          <value>
+            <Glass>2</Glass>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>*/ThingDef[defName = "SunLamp"]/costList</xpath>
+          <value>
+            <Glass>2</Glass>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>*/ThingDef[defName = "WallLamp"]/costList</xpath>
+          <value>
+            <Glass>2</Glass>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>*/ThingDef[defName = "FloodLight"]/costList</xpath>
+          <value>
+            <Glass>2</Glass>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>*/ThingDef[defName = "DrugLab"]/costList</xpath>
+          <value>
+            <Glass>10</Glass>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>*/ThingDef[defName = "BiofuelRefinery"]/costList</xpath>
+          <value>
+            <Glass>10</Glass>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>*/ThingDef[defName = "FabricationBench"]/costList</xpath>
+          <value>
+            <Glass>10</Glass>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>*/ThingDef[defName = "HiTechResearchBench"]/costList</xpath>
+          <value>
+            <Glass>20</Glass>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>*/ThingDef[defName = "HydroponicsBasin"]/costList</xpath>
+          <value>
+            <Glass>15</Glass>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>*/ThingDef[defName = "NutrientPasteDispenser"]/costList</xpath>
+          <value>
+            <Glass>10</Glass>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>*/ThingDef[defName = "SolarGenerator"]/costList</xpath>
+          <value>
+            <Glass>20</Glass>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+</Patch>

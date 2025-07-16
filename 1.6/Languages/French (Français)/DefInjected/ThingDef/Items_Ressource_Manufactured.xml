@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: bronze -->
+  <ME_BronzeIngot.label>bronze</ME_BronzeIngot.label>
+  <!-- EN: A prehistoric alloy made from copper and tin. -->
+  <ME_BronzeIngot.description>Un alliage préhistorique fait de cuivre et d'étain.</ME_BronzeIngot.description>
+
+  <!-- EN: brass -->
+  <ME_BrassIngot.label>laiton</ME_BrassIngot.label>
+  <!-- EN: A very common alloy made from copper and zinc. -->
+  <ME_BrassIngot.description>Un alliage très courant fait de cuivre et de zinc.</ME_BrassIngot.description>
+
+  <!-- EN: electrum -->
+  <ME_ElectrumIngot.label>electrum</ME_ElectrumIngot.label>
+  <!-- EN: An alloy made from gold and silver, sometimes found naturally. -->
+  <ME_ElectrumIngot.description>Un alliage fait d'or et d'argent. Il est parfois trouvé à l'état naturel.</ME_ElectrumIngot.description>
+
+  <!-- EN: white gold -->
+  <ME_WhiteGoldIngot.label>or blanc</ME_WhiteGoldIngot.label>
+  <!-- EN: A beautiful alloy made from gold, silver and nickel. -->
+  <ME_WhiteGoldIngot.description>Un alliage magnifique, fait d'or, d'argent et de nickel.</ME_WhiteGoldIngot.description>
+
+  <!-- EN: pink gold -->
+  <ME_PinkGoldIngot.label>or blanc</ME_PinkGoldIngot.label>
+  <!-- EN: A beautiful alloy made from gold, silver and copper. -->
+  <ME_PinkGoldIngot.description>Un alliage magnifique, fait d'or, d'argent et de cuivre.</ME_PinkGoldIngot.description>
+
+</LanguageData>

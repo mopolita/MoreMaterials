@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase" Name="ME_IngotBase" Abstract="True">
+    <stackLimit>75</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <uiIconForStackCount>1</uiIconForStackCount>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <statFactors>
+        <Flammability>0</Flammability>
+      </statFactors>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+  </ThingDef>
+
+<!-- bronze -->
+  <ThingDef ParentName="ME_IngotBase">
+    <defName>ME_BronzeIngot</defName>
+    <label>bronze</label>
+    <description>A prehistoric alloy made from copper and tin.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Manufactured/ME_BronzeIngot</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.6</MarketValue>
+      <Mass>0.4</Mass>
+      <StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.5</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.4</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>1.4</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.1</BluntDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <commonality>0.15</commonality>
+      <color>(176, 99, 4)</color>
+      <statFactors>
+        <MaxHitPoints>0.85</MaxHitPoints>
+        <Beauty>1.7</Beauty>
+        <WorkToMake>1.15</WorkToMake>
+        <WorkToBuild>1.15</WorkToBuild>
+        <MeleeWeapon_CooldownMultiplier>0.9</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+<!-- brass -->
+  <ThingDef ParentName="ME_IngotBase">
+    <defName>ME_BrassIngot</defName>
+    <label>brass</label>
+    <description>A very common alloy made from copper and zinc.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Manufactured/ME_BrassIngot</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <Mass>0.8</Mass>
+      <StuffPower_Armor_Sharp>0.8</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.2</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>1.5</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>1.2</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.6</BluntDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <commonality>0.1</commonality>
+      <color>(156, 146, 12)</color>
+      <statFactors>
+        <MaxHitPoints>1</MaxHitPoints>
+        <Beauty>1</Beauty>
+        <WorkToMake>1.35</WorkToMake>
+        <WorkToBuild>1.35</WorkToBuild>
+        <MeleeWeapon_CooldownMultiplier>1.1</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+<!-- cast iron -->
+  <ThingDef ParentName="ME_IngotBase">
+    <defName>ME_CastIronIngot</defName>
+    <label>cast iron</label>
+    <description>A common alloy made from iron and coal.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Manufactured/ME_CastIronIngot</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.5</MarketValue>
+      <Mass>0.7</Mass>
+      <StuffPower_Armor_Sharp>0.7</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.8</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.4</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>2.0</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>1.0</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.4</BluntDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <commonality>0.8</commonality>
+      <color>(60, 60, 65)</color>
+      <statFactors>
+        <MaxHitPoints>1</MaxHitPoints>
+        <Beauty>0.8</Beauty>
+        <WorkToMake>1.5</WorkToMake>
+        <WorkToBuild>1.5</WorkToBuild>
+        <MeleeWeapon_CooldownMultiplier>1.2</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+<!-- electrum -->
+  <ThingDef ParentName="ME_IngotBase">
+    <defName>ME_ElectrumIngot</defName>
+    <label>electrum</label>
+    <description>An alloy made from gold and silver, sometimes found naturally.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Manufactured/ME_ElectrumIngot</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.5</MarketValue>
+      <Mass>1</Mass>
+      <StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.9</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.5</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>1.8</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>1.2</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <commonality>0.05</commonality>
+      <color>(205, 140, 47)</color>
+      <statFactors>
+        <MaxHitPoints>0.7</MaxHitPoints>
+        <Beauty>2</Beauty>
+        <WorkToMake>1.5</WorkToMake>
+        <WorkToBuild>1.5</WorkToBuild>
+        <MeleeWeapon_CooldownMultiplier>1.2</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+<!-- white gold -->
+  <ThingDef ParentName="ME_IngotBase">
+    <defName>ME_WhiteGoldIngot</defName>
+    <label>white gold</label>
+    <description>A beautiful alloy made from gold, silver and nickel.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Manufactured/ME_WhiteGoldIngot</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>3</MarketValue>
+      <Mass>1.2</Mass>
+      <StuffPower_Armor_Sharp>0.5</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.5</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.2</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>1.5</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>0.8</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.5</BluntDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <commonality>0.05</commonality>
+      <color>(131, 126, 126)</color>
+      <statFactors>
+        <MaxHitPoints>0.75</MaxHitPoints>
+        <Beauty>45</Beauty>
+        <WorkToMake>1.75</WorkToMake>
+        <WorkToBuild>1.75</WorkToBuild>
+        <MeleeWeapon_CooldownMultiplier>1.5</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+<!-- pink gold -->
+  <ThingDef ParentName="ME_IngotBase">
+    <defName>ME_PinkGoldIngot</defName>
+    <label>pink gold</label>
+    <description>A beautiful alloy made from gold, silver and copper.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Manufactured/ME_PinkGoldIngot</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>4</MarketValue>
+      <Mass>1.5</Mass>
+      <StuffPower_Armor_Sharp>0.5</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.5</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.2</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>1.5</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>0.8</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.5</BluntDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <commonality>0.01</commonality>
+      <color>(216, 108, 86)</color>
+      <statFactors>
+        <MaxHitPoints>0.65</MaxHitPoints>
+        <Beauty>50</Beauty>
+        <WorkToMake>1.75</WorkToMake>
+        <WorkToBuild>1.75</WorkToBuild>
+        <MeleeWeapon_CooldownMultiplier>1.5</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+</Defs>

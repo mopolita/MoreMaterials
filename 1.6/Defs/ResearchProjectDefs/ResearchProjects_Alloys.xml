@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>Basic_Alloys</defName>
+    <label>basic alloys</label>
+    <description>Learn how to do some basic alloy smithing.</description>
+    <baseCost>250</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>4.25</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Advanced_Alloys</defName>
+    <label>advanced alloys</label>
+    <description>Alloys that require advanced smithing techniques in order to produce.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>Basic_Alloys</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>4.25</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

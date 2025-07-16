@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- StandingLamp -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "StandingLamp"]/costList</xpath>
+    <value>
+      <ME_Copper>5</ME_Copper>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "StandingLamp"]/costList</xpath>
+    <value>
+      <ME_Tin>3</ME_Tin>
+    </value>
+  </Operation>
+
+<!-- SunLamp -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "SunLamp"]/costList</xpath>
+    <value>
+      <ME_Copper>10</ME_Copper>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "SunLamp"]/costList</xpath>
+    <value>
+      <ME_Nickel>5</ME_Nickel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "SunLamp"]/costList</xpath>
+    <value>
+      <ME_Zinc>5</ME_Zinc>
+    </value>
+  </Operation>
+
+<!-- WallLamp -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "WallLamp"]/costList</xpath>
+    <value>
+      <ME_Copper>5</ME_Copper>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "WallLamp"]/costList</xpath>
+    <value>
+      <ME_Tin>3</ME_Tin>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "WallLamp"]/costList</xpath>
+    <value>
+      <ME_BrassIngot>2</ME_BrassIngot>
+    </value>
+  </Operation>
+
+<!-- FloodLight -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "FloodLight"]/costList</xpath>
+    <value>
+      <ME_Copper>10</ME_Copper>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "FloodLight"]/costList</xpath>
+    <value>
+      <ME_Nickel>5</ME_Nickel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "FloodLight"]/costList</xpath>
+    <value>
+      <ME_Tin>8</ME_Tin>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "FloodLight"]/costList</xpath>
+    <value>
+      <ME_BrassIngot>8</ME_BrassIngot>
+    </value>
+  </Operation>
+
+</Patch>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: make chemfuel from coal -->
+  <Make_ChemfuelFromCoal.label>raffiner du chemfuel à partir de charbon</Make_ChemfuelFromCoal.label>
+  <!-- EN: Make a batch of chemfuel by extracting and condensing carbon from coal. -->
+  <Make_ChemfuelFromCoal.description>Produit du chemfuel en extrayant puis en condensant le carbone du charbon.</Make_ChemfuelFromCoal.description>
+  <!-- EN: Refining chemfuel from coal. -->
+  <Make_ChemfuelFromCoal.jobString>En train de raffiner de chemfuel à partir de charbon.</Make_ChemfuelFromCoal.jobString>
+
+  <!-- EN: make bronze ingots X10 -->
+  <Make_BronzeIngots.label>Produire des lingots de bronze X10</Make_BronzeIngots.label>
+  <!-- EN: Make a batch of bronze by smelting and mixing copper and tin. -->
+  <Make_BronzeIngots.description>Produit du bronze en mélangeant du cuivre et de l'étain.</Make_BronzeIngots.description>
+  <!-- EN: Smelting alloy ingots. -->
+  <Make_BronzeIngots.jobString>En train de fondre de lingots.</Make_BronzeIngots.jobString>
+
+  <!-- EN: make bronze ingots X100 -->
+  <Make_BronzeIngotsBulk.label>Produire des lingots de bronze X100</Make_BronzeIngotsBulk.label>
+  <!-- EN: Make a batch of bronze by smelting and mixing copper and tin. -->
+  <Make_BronzeIngotsBulk.description>Produit du bronze en mélangeant du cuivre et de l'étain.</Make_BronzeIngotsBulk.description>
+  <!-- EN: Smelting alloy ingots. -->
+  <Make_BronzeIngotsBulk.jobString>En train de fondre de lingots.</Make_BronzeIngotsBulk.jobString>
+
+  <!-- EN: make brass ingots X10 -->
+  <Make_BrassIngots.label>Produire des lingots de laiton X10</Make_BrassIngots.label>
+  <!-- EN: Make a batch of brass by smelting and mixing copper and zinc. -->
+  <Make_BrassIngots.description>Produit du laiton en mélangeant du cuivre et du zinc.</Make_BrassIngots.description>
+  <!-- EN: Smelting alloy ingots. -->
+  <Make_BrassIngots.jobString>En train de fondre de lingots.</Make_BrassIngots.jobString>
+
+  <!-- EN: make brass ingots X100 -->
+  <Make_BrassIngotsBulk.label>Produire des lingots de laiton X100</Make_BrassIngotsBulk.label>
+  <!-- EN: Make a batch of brass by smelting and mixing copper and zinc. -->
+  <Make_BrassIngotsBulk.description>Produit du laiton en mélangeant du cuivre et du zinc.</Make_BrassIngotsBulk.description>
+  <!-- EN: Smelting alloy ingots. -->
+  <Make_BrassIngotsBulk.jobString>En train de fondre de lingots.</Make_BrassIngotsBulk.jobString>
+
+  <!-- EN: make electrum ingots X10 -->
+  <Make_ElectrumIngots.label>Produire des lingots d'électrum X10</Make_ElectrumIngots.label>
+  <!-- EN: Make a batch of electrum by smelting and mixing gold and silver. -->
+  <Make_ElectrumIngots.description>Produit de l'électrum en mélangeant de l'or et de l'argent.</Make_ElectrumIngots.description>
+  <!-- EN: Smelting alloy ingots. -->
+  <Make_ElectrumIngots.jobString>En train de fondre de lingots.</Make_ElectrumIngots.jobString>
+
+  <!-- EN: make electrum ingots X100 -->
+  <Make_ElectrumIngotsBulk.label>Produire des lingots d'électrum X100</Make_ElectrumIngotsBulk.label>
+  <!-- EN: Make a batch of electrum by smelting and mixing gold and silver. -->
+  <Make_ElectrumIngotsBulk.description>Produit de l'électrum en mélangeant de l'or et de l'argent.</Make_ElectrumIngotsBulk.description>
+  <!-- EN: Smelting alloy ingots. -->
+  <Make_ElectrumIngotsBulk.jobString>En train de fondre de lingots.</Make_ElectrumIngotsBulk.jobString>
+
+  <!-- EN: make white gold ingots X10 -->
+  <Make_WhiteGoldIngots.label>Produire des lingots d'or blanc X10</Make_WhiteGoldIngots.label>
+  <!-- EN: Make a batch of white gold by smelting and mixing gold, silver and nickel. -->
+  <Make_WhiteGoldIngots.description>Produit de l'or blanc en mélangeant de l'or, de l'argent et du nickel.</Make_WhiteGoldIngots.description>
+  <!-- EN: Smelting alloy ingots. -->
+  <Make_WhiteGoldIngots.jobString>En train de fondre de lingots.</Make_WhiteGoldIngots.jobString>
+
+  <!-- EN: make white gold ingots X100 -->
+  <Make_WhiteGoldIngotsBulk.label>Produire des lingots d'or blanc X100</Make_WhiteGoldIngotsBulk.label>
+  <!-- EN: Make a batch of white gold by smelting and mixing gold, silver and nickel. -->
+  <Make_WhiteGoldIngotsBulk.description>Produit de l'or blanc en mélangeant de l'or, de l'argent et du nickel.</Make_WhiteGoldIngotsBulk.description>
+  <!-- EN: Smelting alloy ingots. -->
+  <Make_WhiteGoldIngotsBulk.jobString>En train de fondre de lingots.</Make_WhiteGoldIngotsBulk.jobString>
+
+  <!-- EN: make pink gold ingots X10 -->
+  <Make_PinkGoldIngots.label>Produire des lingots d'or rose X10</Make_PinkGoldIngots.label>
+  <!-- EN: Make a batch of pink gold by smelting and mixing gold, silver and copper. -->
+  <Make_PinkGoldIngots.description>Produit de l'or rose en mélangeant de l'or, de l'argent et du cuivre.</Make_PinkGoldIngots.description>
+  <!-- EN: Smelting alloy ingots. -->
+  <Make_PinkGoldIngots.jobString>En train de fondre de lingots.</Make_PinkGoldIngots.jobString>
+
+  <!-- EN: make pink gold ingots X100 -->
+  <Make_PinkGoldIngotsBulk.label>Produire des lingots d'or rose X100</Make_PinkGoldIngotsBulk.label>
+  <!-- EN: Make a batch of pink gold by smelting and mixing gold, silver and copper. -->
+  <Make_PinkGoldIngotsBulk.description>Produit de l'or rose en mélangeant de l'or, de l'argent et du cuivre .</Make_PinkGoldIngotsBulk.description>
+  <!-- EN: Smelting alloy ingots. -->
+  <Make_PinkGoldIngotsBulk.jobString>En train de fondre de lingots.</Make_PinkGoldIngotsBulk.jobString>
+
+</LanguageData>

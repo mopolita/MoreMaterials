@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "Silver"]/stuffProps/statFactors/Flammability</xpath>
+    <value>
+      <Flammability>0</Flammability>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "Gold"]/stuffProps/statFactors/Flammability</xpath>
+    <value>
+      <Flammability>0</Flammability>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "Steel"]/stuffProps/statFactors/Flammability</xpath>
+    <value>
+      <Flammability>0</Flammability>
+    </value>
+  </Operation>
+
+</Patch>
