@@ -11,5 +11,5 @@ If you have the game elsewere, just download all the files, and put decompressed
 
 ## 💭 Feedback and Contributing
 
-If you found a bug or want to report something, you can either open an [issue](https://github.com/mopolita/MoreMaterials/issues) or go to the bug report on the steam workshop [here](https://steamcommunity.com/workshop/filedetails/discussion/3055040889/3958161899237327935/).  
+If you found a bug or want to report something, you can either open an [issue](https://github.com/mopolita/MoreMaterials/issues) or go to [the bug report discussion](https://steamcommunity.com/workshop/filedetails/discussion/3055040889/3958161899237327935/) on the steam workshop.  
 If you want to modify and add anything and everything, you can fork this repository, do your stuff, and then make a pull request.
