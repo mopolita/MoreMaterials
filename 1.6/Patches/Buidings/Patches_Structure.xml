@@ -13,19 +13,7 @@
     <xpath>*/ThingDef[defName = "Autodoor"]/costList</xpath>
     <value>
       <ME_Copper>10</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "Autodoor"]/costList</xpath>
-    <value>
       <ME_Lead>5</ME_Lead>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "Autodoor"]/costList</xpath>
-    <value>
       <ME_CastIronIngot>10</ME_CastIronIngot>
     </value>
   </Operation>

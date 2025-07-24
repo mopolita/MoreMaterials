@@ -52,19 +52,7 @@
     <xpath>*/ThingDef[defName = "PowerSwitch"]/costList</xpath>
     <value>
       <ME_Copper>5</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "PowerSwitch"]/costList</xpath>
-    <value>
       <ME_Nickel>3</ME_Nickel>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "PowerSwitch"]/costList</xpath>
-    <value>
       <ME_Tin>2</ME_Tin>
     </value>
   </Operation>
@@ -74,12 +62,6 @@
     <xpath>*/ThingDef[defName = "WoodFiredGenerator"]/costList</xpath>
     <value>
       <ME_Copper>10</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "WoodFiredGenerator"]/costList</xpath>
-    <value>
       <ME_Nickel>8</ME_Nickel>
     </value>
   </Operation>
@@ -96,26 +78,8 @@
     <xpath>*/ThingDef[defName = "ChemfuelPoweredGenerator"]/costList</xpath>
     <value>
       <ME_Copper>10</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "ChemfuelPoweredGenerator"]/costList</xpath>
-    <value>
       <ME_Zinc>10</ME_Zinc>
-    </value>
-  
-  </Operation>
-    <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "ChemfuelPoweredGenerator"]/costList</xpath>
-    <value>
       <ME_BronzeIngot>10</ME_BronzeIngot>
-    </value>
-  
-  </Operation>
-    <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "ChemfuelPoweredGenerator"]/costList</xpath>
-    <value>
       <ME_CastIronIngot>20</ME_CastIronIngot>
     </value>
   </Operation>
@@ -132,19 +96,7 @@
     <xpath>*/ThingDef[defName = "WindTurbine"]/costList</xpath>
     <value>
       <ME_Copper>10</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "WindTurbine"]/costList</xpath>
-    <value>
       <ME_Zinc>5</ME_Zinc>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "WindTurbine"]/costList</xpath>
-    <value>
       <ME_CastIronIngot>20</ME_CastIronIngot>
     </value>
   </Operation>
@@ -161,12 +113,6 @@
     <xpath>*/ThingDef[defName = "SolarGenerator"]/costList</xpath>
     <value>
       <ME_Copper>10</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "SolarGenerator"]/costList</xpath>
-    <value>
       <ME_Zinc>5</ME_Zinc>
     </value>
   </Operation>
@@ -183,19 +129,7 @@
     <xpath>*/ThingDef[defName = "GeothermalGenerator"]/costList</xpath>
     <value>
       <ME_Copper>30</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "GeothermalGenerator"]/costList</xpath>
-    <value>
       <ME_Zinc>10</ME_Zinc>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "GeothermalGenerator"]/costList</xpath>
-    <value>
       <ME_CastIronIngot>60</ME_CastIronIngot>
     </value>
   </Operation>
@@ -219,19 +153,7 @@
     <xpath>*/ThingDef[defName = "WatermillGenerator"]/costList</xpath>
     <value>
       <ME_Copper>20</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "WatermillGenerator"]/costList</xpath>
-    <value>
       <ME_Zinc>10</ME_Zinc>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "WatermillGenerator"]/costList</xpath>
-    <value>
       <ME_CastIronIngot>30</ME_CastIronIngot>
     </value>
   </Operation>

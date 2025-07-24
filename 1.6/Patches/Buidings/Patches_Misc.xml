@@ -13,12 +13,6 @@
     <xpath>*/ThingDef[defName = "OrbitalTradeBeacon"]/costList</xpath>
     <value>
       <ME_Copper>10</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "OrbitalTradeBeacon"]/costList</xpath>
-    <value>
       <ME_ElectrumIngot>5</ME_ElectrumIngot>
     </value>
   </Operation>
@@ -35,12 +29,6 @@
     <xpath>*/ThingDef[defName = "CommsConsole"]/costList</xpath>
     <value>
       <ME_Copper>20</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "CommsConsole"]/costList</xpath>
-    <value>
       <ME_ElectrumIngot>10</ME_ElectrumIngot>
     </value>
   </Operation>
@@ -57,12 +45,6 @@
     <xpath>*/ThingDef[defName = "FirefoamPopper"]/costList</xpath>
     <value>
       <ME_Copper>5</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "FirefoamPopper"]/costList</xpath>
-    <value>
       <ME_CastIronIngot>10</ME_CastIronIngot>
     </value>
   </Operation>
@@ -79,15 +61,9 @@
     <xpath>*/ThingDef[defName = "MoisturePump"]/costList</xpath> 
     <value>
       <ME_Copper>10</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "MoisturePump"]/costList</xpath> 
-    <value>
       <ME_CastIronIngot>15</ME_CastIronIngot>
     </value>
-</Operation>
+  </Operation>
 
 <!-- GroundPenetratingScanner -->
   <Operation Class="PatchOperationReplace">
@@ -101,19 +77,7 @@
     <xpath>*/ThingDef[defName = "GroundPenetratingScanner"]/costList</xpath> 
     <value>
       <ME_Copper>10</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "GroundPenetratingScanner"]/costList</xpath> 
-    <value>
       <ME_BronzeIngot>15</ME_BronzeIngot>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "GroundPenetratingScanner"]/costList</xpath> 
-    <value>
       <ME_CastIronIngot>20</ME_CastIronIngot>
     </value>
   </Operation>
@@ -130,19 +94,7 @@
     <xpath>*/ThingDef[defName = "LongRangeMineralScanner"]/costList</xpath> 
     <value>
       <ME_Copper>15</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "LongRangeMineralScanner"]/costList</xpath> 
-    <value>
       <ME_BronzeIngot>20</ME_BronzeIngot>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "LongRangeMineralScanner"]/costList</xpath> 
-    <value>
       <ME_CastIronIngot>25</ME_CastIronIngot>
     </value>
   </Operation>
@@ -152,12 +104,6 @@
     <xpath>*/ThingDef[defName = "PodLauncher"]/costList</xpath> 
     <value>
       <ME_Copper>8</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "PodLauncher"]/costList</xpath> 
-    <value>
       <ME_CastIronIngot>10</ME_CastIronIngot>
     </value>
   </Operation>
@@ -167,19 +113,7 @@
     <xpath>*/ThingDef[defName = "TransportPod"]/costList</xpath> 
     <value>
       <ME_Copper>10</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "TransportPod"]/costList</xpath> 
-    <value>
       <ME_Lithium>5</ME_Lithium>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "TransportPod"]/costList</xpath> 
-    <value>
       <ME_BronzeIngot>10</ME_BronzeIngot>
     </value>
   </Operation>
@@ -203,19 +137,7 @@
     <xpath>*/ThingDef[defName = "MultiAnalyzer"]/costList</xpath> 
     <value>
       <ME_Copper>10</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "MultiAnalyzer"]/costList</xpath> 
-    <value>
       <ME_ElectrumIngot>30</ME_ElectrumIngot>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "MultiAnalyzer"]/costList</xpath> 
-    <value>
       <ME_WhiteGoldIngot>10</ME_WhiteGoldIngot>
     </value>
   </Operation>
@@ -225,12 +147,6 @@
     <xpath>*/ThingDef[defName = "VitalsMonitor"]/costList</xpath> 
     <value>
       <ME_Copper>5</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "VitalsMonitor"]/costList</xpath> 
-    <value>
       <ME_BronzeIngot>5</ME_BronzeIngot>
     </value>
   </Operation>
@@ -254,26 +170,8 @@
   <xpath>*/ThingDef[defName = "CryptosleepCasket"]/costList</xpath> 
   <value>
     <ME_BronzeIngot>15</ME_BronzeIngot>
-  </value>
-</Operation>
-
-<Operation Class="PatchOperationAdd">
-  <xpath>*/ThingDef[defName = "CryptosleepCasket"]/costList</xpath> 
-  <value>
     <ME_Lead>10</ME_Lead>
-  </value>
-</Operation>
-
-<Operation Class="PatchOperationAdd">
-  <xpath>*/ThingDef[defName = "CryptosleepCasket"]/costList</xpath> 
-  <value>
     <ME_Nickel>10</ME_Nickel>
-  </value>
-</Operation>
-
-<Operation Class="PatchOperationAdd">
-  <xpath>*/ThingDef[defName = "CryptosleepCasket"]/costList</xpath> 
-  <value>
     <ME_Copper>20</ME_Copper>
   </value>
 </Operation>

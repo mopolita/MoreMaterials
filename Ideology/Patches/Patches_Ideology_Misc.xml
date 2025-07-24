@@ -6,12 +6,6 @@
     <xpath>*/ThingDef[defName = "LightBall"]/costList</xpath>
     <value>
       <ME_Copper>5</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "LightBall"]/costList</xpath>
-    <value>
       <ME_Tin>3</ME_Tin>
     </value>
   </Operation>
@@ -21,28 +15,23 @@
     <xpath>*/ThingDef[defName = "Loudspeaker"]/costList</xpath>
     <value>
       <ME_Copper>10</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "Loudspeaker"]/costList</xpath>
-    <value>
       <ME_Tin>5</ME_Tin>
     </value>
   </Operation>
 
-<!-- Loudspeaker -->
+<!-- Autobong -->
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "Loudspeaker"]/costList</xpath>
+    <xpath>*/ThingDef[defName = "Autobong"]/costList</xpath>
     <value>
-      <ME_Copper>10</ME_Copper>
+      <ME_Copper>5</ME_Copper>
     </value>
   </Operation>
 
+<!-- SleepAccelerator -->
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "Loudspeaker"]/costList</xpath>
+    <xpath>*/ThingDef[defName = "SleepAccelerator"]/costList</xpath>
     <value>
-      <ME_Tin>5</ME_Tin>
+      <ME_Copper>5</ME_Copper>
     </value>
   </Operation>
 

@@ -8,19 +8,7 @@
     <xpath>*/ThingDef[defName = "ElectricTailoringBench"]/costList</xpath>
     <value>
       <ME_Copper>10</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "ElectricTailoringBench"]/costList</xpath>
-    <value>
       <ME_Nickel>8</ME_Nickel>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "ElectricTailoringBench"]/costList</xpath>
-    <value>
       <ME_BrassIngot>5</ME_BrassIngot>
     </value>
   </Operation>
@@ -30,19 +18,7 @@
     <xpath>*/ThingDef[defName = "ElectricSmithy"]/costList</xpath>
     <value>
       <ME_Copper>15</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "ElectricSmithy"]/costList</xpath>
-    <value>
       <ME_Nickel>10</ME_Nickel>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "ElectricSmithy"]/costList</xpath>
-    <value>
       <ME_Zinc>5</ME_Zinc>
     </value>
   </Operation>
@@ -59,26 +35,8 @@
     <xpath>*/ThingDef[defName = "TableMachining"]/costList</xpath>
     <value>
       <ME_Copper>20</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "TableMachining"]/costList</xpath>
-    <value>
       <ME_Nickel>25</ME_Nickel>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "TableMachining"]/costList</xpath>
-    <value>
       <ME_BrassIngot>10</ME_BrassIngot>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "TableMachining"]/costList</xpath>
-    <value>
       <ME_CastIronIngot>15</ME_CastIronIngot>
     </value>
   </Operation>
@@ -88,19 +46,7 @@
     <xpath>*/ThingDef[defName = "ElectricStove"]/costList</xpath>
     <value>
       <ME_Copper>10</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "ElectricStove"]/costList</xpath>
-    <value>
       <ME_Nickel>8</ME_Nickel>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "ElectricStove"]/costList</xpath>
-    <value>
       <ME_Tin>5</ME_Tin>
     </value>
   </Operation>
@@ -117,33 +63,9 @@
     <xpath>*/ThingDef[defName = "ElectricSmelter"]/costList</xpath>
     <value>
       <ME_Copper>10</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "ElectricSmelter"]/costList</xpath>
-    <value>
       <ME_Lead>20</ME_Lead>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "ElectricSmelter"]/costList</xpath>
-    <value>
       <ME_Zinc>15</ME_Zinc>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "ElectricSmelter"]/costList</xpath>
-    <value>
       <ME_Nickel>20</ME_Nickel>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "ElectricSmelter"]/costList</xpath>
-    <value>
       <ME_CastIronIngot>50</ME_CastIronIngot>
     </value>
   </Operation>
@@ -160,19 +82,7 @@
     <xpath>*/ThingDef[defName = "DrugLab"]/costList</xpath>
     <value>
       <ME_Copper>10</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "DrugLab"]/costList</xpath>
-    <value>
       <ME_Lead>5</ME_Lead>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "DrugLab"]/costList</xpath>
-    <value>
       <ME_CastIronIngot>15</ME_CastIronIngot>
     </value>
   </Operation>
@@ -189,26 +99,8 @@
     <xpath>*/ThingDef[defName = "BiofuelRefinery"]/costList</xpath>
     <value>
       <ME_Copper>15</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "BiofuelRefinery"]/costList</xpath>
-    <value>
       <ME_Nickel>10</ME_Nickel>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "BiofuelRefinery"]/costList</xpath>
-    <value>
       <ME_Lead>8</ME_Lead>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "BiofuelRefinery"]/costList</xpath>
-    <value>
       <ME_CastIronIngot>50</ME_CastIronIngot>
     </value>
   </Operation>
@@ -218,19 +110,7 @@
     <xpath>*/ThingDef[defName = "FabricationBench"]/costList</xpath>
     <value>
       <ME_Copper>20</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "FabricationBench"]/costList</xpath>
-    <value>
       <ME_Nickel>15</ME_Nickel>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "FabricationBench"]/costList</xpath>
-    <value>
       <ME_BrassIngot>10</ME_BrassIngot>
     </value>
   </Operation>
@@ -242,19 +122,7 @@
     <xpath>*/ThingDef[defName = "HiTechResearchBench"]/costList</xpath>
     <value>
       <ME_Copper>15</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "HiTechResearchBench"]/costList</xpath>
-    <value>
       <ME_Nickel>10</ME_Nickel>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "HiTechResearchBench"]/costList</xpath>
-    <value>
       <ME_BrassIngot>5</ME_BrassIngot>
     </value>
   </Operation>
@@ -278,26 +146,8 @@
     <xpath>*/ThingDef[defName = "ElectricCrematorium"]/costList</xpath>
     <value>
       <ME_Copper>8</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "ElectricCrematorium"]/costList</xpath>
-    <value>
       <ME_Nickel>10</ME_Nickel>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "ElectricCrematorium"]/costList</xpath>
-    <value>
       <ME_Lead>5</ME_Lead>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "ElectricCrematorium"]/costList</xpath>
-    <value>
       <ME_CastIronIngot>30</ME_CastIronIngot>
     </value>
   </Operation>
@@ -307,19 +157,7 @@
     <xpath>*/ThingDef[defName = "HydroponicsBasin"]/costList</xpath>
     <value>
       <ME_Copper>10</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "HydroponicsBasin"]/costList</xpath>
-    <value>
       <ME_Zinc>5</ME_Zinc>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "HydroponicsBasin"]/costList</xpath>
-    <value>
       <ME_Tin>5</ME_Tin>
     </value>
   </Operation>
@@ -336,33 +174,9 @@
     <xpath>*/ThingDef[defName = "DeepDrill"]/costList</xpath>
     <value>
       <ME_Copper>15</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "DeepDrill"]/costList</xpath>
-    <value>
       <ME_Nickel>10</ME_Nickel>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "DeepDrill"]/costList</xpath>
-    <value>
       <ME_Lead>5</ME_Lead>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "DeepDrill"]/costList</xpath>
-    <value>
       <ME_Zinc>5</ME_Zinc>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "DeepDrill"]/costList</xpath>
-    <value>
       <ME_CastIronIngot>25</ME_CastIronIngot>
     </value>
   </Operation>
@@ -374,19 +188,7 @@
     <xpath>*/ThingDef[defName = "NutrientPasteDispenser"]/costList</xpath>
     <value>
       <ME_Copper>10</ME_Copper>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "NutrientPasteDispenser"]/costList</xpath>
-    <value>
       <ME_Nickel>8</ME_Nickel>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "NutrientPasteDispenser"]/costList</xpath>
-    <value>
       <ME_Tin>5</ME_Tin>
     </value>
   </Operation>
@@ -403,12 +205,6 @@
     <xpath>*/ThingDef[defName = "Hopper"]/costList</xpath>
     <value>
       <ME_CastIronIngot>8</ME_CastIronIngot>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "Hopper"]/costList</xpath>
-    <value>
       <ME_Zinc>2</ME_Zinc>
     </value>
   </Operation>

@@ -26,157 +26,16 @@
     <xpath>*/ThingDef[defName = "FueledSmithy"]/recipes</xpath>
     <value>
       <li>Make_BronzeIngots</li>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "FueledSmithy"]/recipes</xpath>
-    <value>
       <li>Make_BronzeIngotsBulk</li>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "ElectricSmithy"]/recipes</xpath>
-    <value>
-      <li>Make_BronzeIngots</li>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "ElectricSmithy"]/recipes</xpath>
-    <value>
-      <li>Make_BronzeIngotsBulk</li>
-    </value>
-  </Operation>
-
-<!-- Brass -->
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "FueledSmithy"]/recipes</xpath>
-    <value>
       <li>Make_BrassIngots</li>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "FueledSmithy"]/recipes</xpath>
-    <value>
       <li>Make_BrassIngotsBulk</li>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "ElectricSmithy"]/recipes</xpath>
-    <value>
-      <li>Make_BrassIngots</li>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "ElectricSmithy"]/recipes</xpath>
-    <value>
-      <li>Make_BrassIngotsBulk</li>
-    </value>
-  </Operation>
-
-<!-- Electrum -->
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "FueledSmithy"]/recipes</xpath>
-    <value>
       <li>Make_ElectrumIngots</li>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "FueledSmithy"]/recipes</xpath>
-    <value>
       <li>Make_ElectrumIngotsBulk</li>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "ElectricSmithy"]/recipes</xpath>
-    <value>
-      <li>Make_ElectrumIngots</li>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "ElectricSmithy"]/recipes</xpath>
-    <value>
-      <li>Make_ElectrumIngotsBulk</li>
-    </value>
-  </Operation>
-
-<!-- White gold -->
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "FueledSmithy"]/recipes</xpath>
-    <value>
       <li>Make_WhiteGoldIngots</li>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "FueledSmithy"]/recipes</xpath>
-    <value>
       <li>Make_WhiteGoldIngotsBulk</li>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "ElectricSmithy"]/recipes</xpath>
-    <value>
-      <li>Make_WhiteGoldIngots</li>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "ElectricSmithy"]/recipes</xpath>
-    <value>
-      <li>Make_WhiteGoldIngotsBulk</li>
-    </value>
-  </Operation>
-
-<!-- Pink gold --> 
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "FueledSmithy"]/recipes</xpath>
-    <value>
       <li>Make_PinkGoldIngots</li>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "FueledSmithy"]/recipes</xpath>
-    <value>
       <li>Make_PinkGoldIngotsBulk</li>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "ElectricSmithy"]/recipes</xpath>
-    <value>
-      <li>Make_PinkGoldIngots</li>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "ElectricSmithy"]/recipes</xpath>
-    <value>
-      <li>Make_PinkGoldIngotsBulk</li>
-    </value>
-  </Operation>
-
-<!-- Cast iron --> 
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "FueledSmithy"]/recipes</xpath>
-    <value>
       <li>Make_CastIronIngots</li>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "FueledSmithy"]/recipes</xpath>
-    <value>
       <li>Make_CastIronIngotsBulk</li>
     </value>
   </Operation>
@@ -184,13 +43,17 @@
   <Operation Class="PatchOperationAdd">
     <xpath>*/ThingDef[defName = "ElectricSmithy"]/recipes</xpath>
     <value>
+      <li>Make_BronzeIngots</li>
+      <li>Make_BronzeIngotsBulk</li>
+      <li>Make_BrassIngots</li>
+      <li>Make_BrassIngotsBulk</li>
+      <li>Make_ElectrumIngots</li>
+      <li>Make_ElectrumIngotsBulk</li>
+      <li>Make_WhiteGoldIngots</li>
+      <li>Make_WhiteGoldIngotsBulk</li>
+      <li>Make_PinkGoldIngots</li>
+      <li>Make_PinkGoldIngotsBulk</li>
       <li>Make_CastIronIngots</li>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "ElectricSmithy"]/recipes</xpath>
-    <value>
       <li>Make_CastIronIngotsBulk</li>
     </value>
   </Operation>

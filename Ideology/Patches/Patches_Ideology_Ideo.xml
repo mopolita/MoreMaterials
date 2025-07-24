@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-<!-- LightBall -->
+<!-- Ideogram -->
   <Operation Class="PatchOperationRemove">
     <xpath>*/ThingDef[defName = "Ideogram"]/costList</xpath>
   </Operation>
@@ -12,12 +12,6 @@
       <stuffCategories>
         <li>Metallic</li>
       </stuffCategories>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "Ideogram"]</xpath>
-    <value>
       <costStuffCount>50</costStuffCount>
     </value>
   </Operation>
