@@ -6,7 +6,7 @@
     <label>white gold royal bed</label>
     <description>A luxurious white gold-inlaid bed fit for the highborn. Very comfy and beautiful, it is a work of art in itself. Fits two.</description>
     <graphicData>
-      <texPath>Things/Furniture/Bed/RoyalBed/White</texPath>
+      <texPath>Things/Furniture/Bed/WhiteGoldRoyalBed</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(2.05,2.05)</drawSize>
@@ -48,7 +48,7 @@
     <label>pink gold royal bed</label>
     <description>A luxurious pink gold-inlaid bed fit for the highborn. Very comfy and beautiful, it is a work of art in itself. Fits two.</description>
     <graphicData>
-      <texPath>Things/Furniture/Bed/RoyalBed/Pink</texPath>
+      <texPath>Things/Furniture/Bed/PinkGoldRoyalBed</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(2.05,2.05)</drawSize>
