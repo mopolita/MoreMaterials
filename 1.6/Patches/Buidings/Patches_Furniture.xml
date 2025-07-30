@@ -59,24 +59,4 @@
     </value>
   </Operation>
 
-  <Operation Class="PatchOperationConditional">
-    <xpath>*/ThingDef[defName = "RoyalBed"]/designatorDropdown</xpath>
-    <nomatch Class="PatchOperationAdd">
-      <xpath>*/ThingDef[defName = "RoyalBed"]</xpath>
-      <value>
-        <designatorDropdown>Royal_Beds</designatorDropdown>
-      </value>
-    </nomatch>
-  </Operation>
-
-  <Operation Class="PatchOperationConditional">
-    <xpath>*/ThingDef[defName = "RoyalBed"]/designatorDropdown</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>*/ThingDef[defName = "RoyalBed"]/designatorDropdown</xpath>
-      <value>
-        <designatorDropdown>Royal_Beds</designatorDropdown>
-      </value>
-    </match>
-  </Operation>
-
 </Patch>

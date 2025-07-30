@@ -41,7 +41,6 @@
       <ThingDef>RoyalBed</ThingDef>
       <ThingDef>PinkGoldRoyalBed</ThingDef>
     </descriptionHyperlinks>
-    <designatorDropdown>Royal_Beds</designatorDropdown>
   </ThingDef>
 
   <ThingDef ParentName="BasicBedBase">
@@ -84,7 +83,6 @@
       <ThingDef>RoyalBed</ThingDef>
       <ThingDef>WhiteGoldRoyalBed</ThingDef>
     </descriptionHyperlinks>
-    <designatorDropdown>Royal_Beds</designatorDropdown>
   </ThingDef>
 
 </Defs>
