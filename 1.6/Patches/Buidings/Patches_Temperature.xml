@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- Heater -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Heater"]/costList</xpath>
+    <value>
+      <ME_Copper>5</ME_Copper>
+      <ME_Tin>3</ME_Tin>
+      <ME_Nickel>2</ME_Nickel>
+    </value>
+  </Operation>
+
+<!-- Cooler -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Cooler"]/costList</xpath>
+    <value>
+      <ME_Copper>5</ME_Copper>
+      <ME_Lithium>2</ME_Lithium>
+    </value>
+  </Operation>
+
+</Patch>
