@@ -16,4 +16,28 @@
     </value>
   </Operation>
 
+<!-- SleepAccelerator -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "SleepAccelerator"]/costList</xpath>
+    <value>
+      <ME_Copper>10</ME_Copper>
+    </value>
+  </Operation>
+
+<!-- BiosculpterPod -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "BiosculpterPod"]/costList</xpath>
+    <value>
+      <ME_Copper>15</ME_Copper>
+    </value>
+  </Operation>
+
+<!-- NeuralSupercharger -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "NeuralSupercharger"]/costList</xpath>
+    <value>
+      <ME_Copper>15</ME_Copper>
+    </value>
+  </Operation>
+
 </Patch>
