@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BasicBedBase">
+    <defName>WhiteGoldRoyalBed</defName>
+    <label>white gold royal bed</label>
+    <description>A luxurious white gold-inlaid bed fit for the highborn. Very comfy and beautiful, it is a work of art in itself. Fits two.</description>
+    <graphicData>
+      <texPath>Things/Furniture/Bed/RoyalBed/White</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2.05,2.05)</drawSize>
+      <damageData>
+        <rect>(0,0.05,2,1.95)</rect>
+      </damageData>
+    </graphicData>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>50000</WorkToBuild>
+      <Mass>60</Mass>
+      <Beauty>75</Beauty>
+      <BedRestEffectiveness>1.05</BedRestEffectiveness>
+      <Comfort>0.90</Comfort>
+    </statBases>
+    <size>(2,2)</size>
+    <costStuffCount>100</costStuffCount>
+    <costList>
+      <ME_WhiteGoldIngot>50</ME_WhiteGoldIngot>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+    <designationHotKey>Misc4</designationHotKey>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <building>
+      <paintable>true</paintable>
+    </building>
+    <descriptionHyperlinks>
+      <ThingDef>RoyalBed</ThingDef>
+      <ThingDef>PinkGoldRoyalBed</ThingDef>
+    </descriptionHyperlinks>
+  </ThingDef>
+
+  <ThingDef ParentName="BasicBedBase">
+    <defName>PinkGoldRoyalBed</defName>
+    <label>pink gold royal bed</label>
+    <description>A luxurious pink gold-inlaid bed fit for the highborn. Very comfy and beautiful, it is a work of art in itself. Fits two.</description>
+    <graphicData>
+      <texPath>Things/Furniture/Bed/RoyalBed/Pink</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2.05,2.05)</drawSize>
+      <damageData>
+        <rect>(0,0.05,2,1.95)</rect>
+      </damageData>
+    </graphicData>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>50000</WorkToBuild>
+      <Mass>60</Mass>
+      <Beauty>75</Beauty>
+      <BedRestEffectiveness>1.05</BedRestEffectiveness>
+      <Comfort>0.90</Comfort>
+    </statBases>
+    <size>(2,2)</size>
+    <costStuffCount>100</costStuffCount>
+    <costList>
+      <ME_PinkGoldIngot>50</ME_PinkGoldIngot>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+    <designationHotKey>Misc4</designationHotKey>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <building>
+      <paintable>true</paintable>
+    </building>
+    <descriptionHyperlinks>
+      <ThingDef>RoyalBed</ThingDef>
+      <ThingDef>WhiteGoldRoyalBed</ThingDef>
+    </descriptionHyperlinks>
+  </ThingDef>
+
+</Defs>

@@ -41,4 +41,42 @@
     </value>
   </Operation>
 
+<!-- RoyalBed -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "RoyalBed"]/label</xpath>
+    <value>
+      <label>golden royal bed</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName="RoyalBed"]</xpath>
+    <value>
+      <descriptionHyperlinks>
+        <ThingDef>WhiteGoldRoyalBed</ThingDef>
+        <ThingDef>PinkGoldRoyalBed</ThingDef>
+      </descriptionHyperlinks>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>*/ThingDef[defName = "RoyalBed"]/designatorDropdown</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>*/ThingDef[defName = "RoyalBed"]</xpath>
+      <value>
+        <designatorDropdown>Royal_Beds</designatorDropdown>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>*/ThingDef[defName = "RoyalBed"]/designatorDropdown</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>*/ThingDef[defName = "RoyalBed"]/designatorDropdown</xpath>
+      <value>
+        <designatorDropdown>Royal_Beds</designatorDropdown>
+      </value>
+    </match>
+  </Operation>
+
 </Patch>
