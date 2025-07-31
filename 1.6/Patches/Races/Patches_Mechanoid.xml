@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[@ParentName = "BaseMechanoid"]/butcherProducts</xpath>
+    <value>
+      <ME_Tin>5</ME_Tin>
+      <ME_Zinc>5</ME_Zinc>
+      <ME_ElectrumIngot>5</ME_ElectrumIngot>
+      <ME_CastIronIngot>5</ME_CastIronIngot>
+    </value>
+  </Operation>
+
+</Patch>

@@ -5,8 +5,61 @@
   <Operation Class="PatchOperationAdd">
     <xpath>*/ThingDef[defName = "Ship_Beam"]/costList</xpath>
     <value>
-      <ME_BronzeIngot>50</ME_BronzeIngot>
+      <ME_CastIronIngot>50</ME_CastIronIngot>
       <ME_Nickel>20</ME_Nickel>
+    </value>
+  </Operation>
+
+<!-- Ship_CryptosleepCasket -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Ship_CryptosleepCasket"]/costList</xpath>
+    <value>
+      <ME_ElectrumIngot>50</ME_ElectrumIngot>
+      <ME_Nickel>20</ME_Nickel>
+    </value>
+  </Operation>
+
+<!-- Ship_ComputerCore -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Ship_ComputerCore"]/costList</xpath>
+    <value>
+      <ME_ElectrumIngot>50</ME_ElectrumIngot>
+      <ME_Nickel>20</ME_Nickel>
+      <ME_Lithium>10</ME_Lithium>
+    </value>
+  </Operation>
+
+<!-- Ship_Reactor -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Ship_Reactor"]/costList</xpath>
+    <value>
+      <ME_ElectrumIngot>40</ME_ElectrumIngot>
+      <ME_CastIronIngot>50</ME_CastIronIngot>
+      <ME_Nickel>20</ME_Nickel>
+    </value>
+  </Operation>
+
+<!-- Ship_Engine -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Ship_Engine"]/costList</xpath>
+    <value>
+      <ME_ElectrumIngot>50</ME_ElectrumIngot>
+      <ME_CastIronIngot>50</ME_CastIronIngot>
+      <ME_Zinc>30</ME_Zinc>
+      <ME_Nickel>20</ME_Nickel>
+      <ME_Lithium>10</ME_Lithium>
+    </value>
+  </Operation>
+
+<!-- Ship_SensorCluster -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Ship_SensorCluster"]/costList</xpath>
+    <value>
+      <ME_ElectrumIngot>40</ME_ElectrumIngot>
+      <ME_CastIronIngot>20</ME_CastIronIngot>
+      <ME_Zinc>20</ME_Zinc>
+      <ME_Nickel>10</ME_Nickel>
+      <ME_Lithium>5</ME_Lithium>
     </value>
   </Operation>
 

@@ -41,6 +41,7 @@
       <ThingDef>RoyalBed</ThingDef>
       <ThingDef>PinkGoldRoyalBed</ThingDef>
     </descriptionHyperlinks>
+    <uiOrder>2020</uiOrder>
   </ThingDef>
 
   <ThingDef ParentName="BasicBedBase">
@@ -83,6 +84,7 @@
       <ThingDef>RoyalBed</ThingDef>
       <ThingDef>WhiteGoldRoyalBed</ThingDef>
     </descriptionHyperlinks>
+    <uiOrder>2020</uiOrder>
   </ThingDef>
 
 </Defs>
